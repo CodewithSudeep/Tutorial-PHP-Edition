@@ -1,6 +1,4 @@
-Debug the code 
-<??php
 
-echo "hello world";
-
-??>
+<?php
+echo "Hello world";
+?>
