@@ -1,1 +1,5 @@
-display your name using echo statement
+<?
+
+ echo "i m rikesh";
+ 
+ ?>
