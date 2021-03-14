@@ -1,3 +1,5 @@
 <?php 
 
-//write a php program demonstrating # for comment
+echo "i m rikesh";  #my name
+?>
+

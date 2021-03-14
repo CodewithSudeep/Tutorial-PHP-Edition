@@ -1,3 +1,7 @@
 <?php 
+echo " my bio";
+/* i m rik stha 
+i study bsc.csit
+*/
+?>
 
-//write a program to demonstrate the use of multi line comments
