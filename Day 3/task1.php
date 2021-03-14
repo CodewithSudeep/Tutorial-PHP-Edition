@@ -1,5 +1,7 @@
 Debug
 
 <?php 
-/this is comment 
+
+//this is comment
+ 
 ?>
