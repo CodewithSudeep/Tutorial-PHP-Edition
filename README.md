@@ -9,3 +9,7 @@
 ### <a href="/Day 2">Day 2</a>
 - <a href="/Day 2/syntax.md">Syntax</a>
 - <a href="/Day 2/echo and print.md">echo and print statements</a>
+
+### <a href="/Day 2">Day 3</a>
+- <a href="/Day 2/syntax.md">Syntax</a>
+- <a href="/Day 2/echo and print.md">echo and print statements</a>
