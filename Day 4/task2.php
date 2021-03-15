@@ -4,11 +4,11 @@ $roll=21;  #int
 $marks=80.5;  #float
 
 #printing
-echo "$name";
+echo "$name \n";
 
-echo "$roll";
+echo "$roll \n";
 
-echo "$marks";
+echo "$marks \n";
 
 
 //create variables for : string data type, int, float.
