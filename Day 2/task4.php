@@ -1,3 +1,1 @@
-<?php
-echo "Address:Ilam,Nepal";
-?>
+display your address using print statement 

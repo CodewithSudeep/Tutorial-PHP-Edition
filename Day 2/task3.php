@@ -1,4 +1,1 @@
-<?php
-echo "Name : Bibek Angdembe";
- 
-?>
+display your name using echo statement 
