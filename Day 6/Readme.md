@@ -13,7 +13,7 @@
 
 ### PHP String Functions
 * strlen() - Return the Length of a String
-* 
+
 ```
 <?php
 echo strlen("Hello world!"); // outputs 12
