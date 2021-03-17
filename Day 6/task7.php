@@ -1,3 +1,5 @@
 <?php
+$name="hello,i m rikesh";
+echo str_replace("rikesh","ncit",$name);
+?>
 
-//replace yourname with your college name in varibale created in task5
