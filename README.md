@@ -11,5 +11,13 @@
 - <a href="/Day 2/echo and print.md">echo and print statements</a>
 
 ### <a href="/Day 2">Day 3</a>
-- <a href="/Day 2/syntax.md">Syntax</a>
-- <a href="/Day 2/echo and print.md">echo and print statements</a>
+- <a href="/Day 2/syntax.md">Comments</a>
+
+### <a href="/Day 2">Day 4</a>
+- <a href="/Day 2/syntax.md">Comments</a>
+
+### <a href="/Day 2">Day 5</a>
+<!-- - <a href="/Day 2/syntax.md">Comments</a> -->
+
+### <a href="/Day 2">Day 6</a>
+<!-- - <a href="/Day 2/syntax.md">Comments</a> -->
