@@ -1,6 +1,6 @@
 <?php 
 
-// create a case sensitive constant for string data type
-
+define("php","it is fun");
+echo php;
 
 ?>
