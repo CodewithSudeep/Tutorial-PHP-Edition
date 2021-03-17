@@ -1,3 +1,5 @@
 <?php
+$computer="it is an electronic device";
+echo str_word_count("$computer");
+?>
 
-//create a variable for definition of "computer" and print the definition also print the total number of words
