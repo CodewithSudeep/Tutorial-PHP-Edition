@@ -1,6 +1,7 @@
 <?php 
 
 //debug the code 
+define("id","111");
+echo id;
+?>
 
-define(ID, 111)
-echo ID;
