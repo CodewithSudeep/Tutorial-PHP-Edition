@@ -1,3 +1,8 @@
 <?php
+$name1 = "rikesh";
+$name2 = 'rik';
 
-//create two variable of string data type using both singlr and double quote.
+echo $name1;
+echo "<br>";
+echo $name2;
+?>

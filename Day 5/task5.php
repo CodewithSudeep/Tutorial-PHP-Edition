@@ -1,7 +1,7 @@
 <?php 
 
-define ("roll",21);
-echo roll;
+define ("ROLL",21);
+echo ROLL;
 
 // create a case constant for integer data type
 

@@ -1,5 +1,29 @@
-<?php 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <?php 
+define("NEP", "nepal");
+define("AUS", "australia");
+define("USA", "america");
+define("UAE","dubai");
+define("SF","south africa");
 
-//create 5 constant for country name and their short code 
-//example : AUS for austrlai : define("AUS","australia);
-//and print them using html table with column country name and shortcode
+
+echo "NEP";
+echo "AUS";
+echo "USA";
+echo "UAE";
+echo "SF";
+?>
+  
+
+</body>
+</html>
+

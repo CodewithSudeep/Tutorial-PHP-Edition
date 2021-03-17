@@ -1,6 +1,6 @@
 <?php 
 
-define("php","it is fun");
-echo php;
+define("PHP","it is fun");
+echo PHP;
 
 ?>
