@@ -1,5 +1,5 @@
 <?php 
 
-define("pi","22",true);
+define("pi","22",false);
 echo pi;
 ?>
