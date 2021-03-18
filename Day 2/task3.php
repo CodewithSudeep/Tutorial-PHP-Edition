@@ -1,1 +1,4 @@
-display your name using echo statement 
+<?php
+//display your name using echo statement 
+echo "Bibek";
+?>
