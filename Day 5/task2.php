@@ -1,5 +1,7 @@
 <?php
 //debug the code 
 
-define("CLASS", 12);
-echo "CLASS"; // echo constant
+define("value", 12);  
+echo value; // echo constant
+            //constant name is changed as CLASS is a keyword that causes syntax error.
+?>
