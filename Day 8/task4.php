@@ -1,4 +1,11 @@
 <?php
 
-//use arithmetic operator to divide two float
-//perform same task using assignment operator
+$n1=12.9;
+$n2=2.5;
+$div=$n1/$n2; #arithmetic
+echo "the division is $div<br/>";
+
+$n1/=$n2;
+echo "the division is $n1<br/>";
+?>
+
