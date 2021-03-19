@@ -1,4 +1,9 @@
 <?php
+$n1=100;
+$n2=100;
+$sum=$n1+$n2;  #using additional operator
+echo "the sum is $sum <br/>";
 
-//use arithmetic operator to add two int
-//perform same task using assignment operator
+$n1+=$n2;
+echo "the sum is $n1<br/>"; #using the additional assignment operator
+?>
