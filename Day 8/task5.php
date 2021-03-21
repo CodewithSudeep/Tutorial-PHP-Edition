@@ -4,27 +4,14 @@
 //use arithmetic operator to find 16^16
 //perform same task using assignment operator
 
+$var=16;
 
-// arithematic operator
-$i=0;
-$ans = 1;
-
-for ($i=0; $i<16; $i++)
-{
-    $ans = $ans*16;
-}
-
+$ans= $var**16;
+// arthematic
 echo $ans;
 echo "<br/>";
+// assignment
 
-// assignment operator
+echo $var **=16;
 
-$j=0;
-$a2=1;
-
-for($j=0; $j<16; $j++)
-{
-    $a2 *= 16;
-}
-
-echo $a2;
+?>

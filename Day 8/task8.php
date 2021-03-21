@@ -4,27 +4,18 @@
 
 // smallest = 53 & highest=97
 
-$i = 0 ;
-$ans = 1;
+$v1 = 53;
+$v2 = 97;
 
-for ($i=0; $i<97; $i++)
-{
-
-$ans = $ans * 53;
-
-}
+// arithematic
+$ans = $v1** $v2;
 
 echo $ans;
+
 echo "<br/>";
 
-// assignment operator
+// assaignment
 
-$j=0;
-$a2=1;
+echo $v1**= $v2;
 
-for($j=0; $j<97; $j++)
-{
-    $a2 *= 53;
-}
-
-echo $a2;
+?>
