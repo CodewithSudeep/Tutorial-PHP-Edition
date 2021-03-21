@@ -1,5 +1,6 @@
 <?php
 //debug the code 
 
-define("CLASS", 12);
-echo "CLASS"; // echo constant
+define("CLASSES", "12");
+echo CLASSES; // echo constant
+?>
