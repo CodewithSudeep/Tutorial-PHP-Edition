@@ -1,4 +1,8 @@
 <?php
-
-//use arithmetic operator to divide two float
-//perform same task using assignment operator
+$x=256.21;
+$y=4.12;
+$z=$x/$y;
+$x/=$y;
+echo "$z<br>";
+echo $x;
+?>
