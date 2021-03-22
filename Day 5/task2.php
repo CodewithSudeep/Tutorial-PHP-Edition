@@ -1,5 +1,6 @@
 <?php
 //debug the code 
 
-define("CLASS", 12);
-echo "CLASS"; // echo constant
+define("roll", 12);// class is keyword so we cant use it
+echo roll; // echo constant
+?>
