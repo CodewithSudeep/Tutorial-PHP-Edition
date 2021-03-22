@@ -4,6 +4,7 @@
 //perform same task using assignment operator
 $num1 = 10;
 $num2 = 15;
-echo "Sum is: ", $num1 + $num2;
+echo "Sum is: ", $num1 + $num2;     //Arithmetic Operator
+echo "Sum is: ", $num1 += $num2;    //Assignment Operator
 
 ?>
