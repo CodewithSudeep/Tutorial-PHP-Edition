@@ -1,1 +1,6 @@
-display your name using echo statement 
+
+<?php 
+
+echo"<h3>my name is raj tuladhar</h3>";
+
+?>
