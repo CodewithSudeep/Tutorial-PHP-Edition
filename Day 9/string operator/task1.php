@@ -8,6 +8,8 @@ $string1 = "hey";
 $string2 = "codewithsudeep";
 
 
-$result = $string1+$string2;
+$result = $string1 . $string2;
 
 echo  $result;
+
+?>
