@@ -8,4 +8,14 @@ $x = 9;
 //print "hi" if the result is greater than 50
 // otherwise print "bye"
 
-
+$result = pow($x,2);
+if($result < 50){
+    echo "Hello";
+}
+elseif($result > 50){
+    echo "hi";
+}
+else{
+    echo "bye";
+}
+?>

@@ -1,19 +1,16 @@
 
 <?php
 
-
-//DEBUG
-
-
 $x = 2;
 
-if $x > 5 {
-    echo "Number is greater than 5"
+if ($x > 5) {
+    echo "Number is greater than 5";
 }
-elseif(x<4){
+elseif($x < 4){
     echo "Number is less than 4";
 }
 else{
-    eco "Number is less than 5;"
+    echo "Number is less than 5";
 }
+?>
 
