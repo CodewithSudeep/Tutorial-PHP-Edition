@@ -1,5 +1,8 @@
 <?php
 
 $x =10;
-
-//use post increment operator and print the variable
+echo $x;
+echo "<br>";
+$x++;
+echo $x;
+?>

@@ -1,4 +1,8 @@
 <?php
-
-//use arithmetic operator to multiply two int
-//perform same task using assignment operator
+$x=16;
+$y=2;
+$z=$x*$y;
+$x*=$y;
+echo "$z<br>";
+echo $x;
+?>

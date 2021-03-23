@@ -16,12 +16,12 @@
 // password = a password
 // phone = your phone number
 // email = your email.
-
+$my_array=array("name"=>"Aadarsha Bhattarai","address"=>"Kathmandu","username"=>"aadarsha1","password"=>"abcd2020","phone"=>"+9779840150573","email"=>"aadrahbhatt@gmail.com");
 
 // print the element of array in HTML table
 
 ?>
-<table>
+<table style="border:5px solid black;width:100%;">
     <tr>
         <th>Name</th>
         <th>Address</th>
@@ -31,12 +31,12 @@
         <th>email</th>
     </tr>
     <tr>
-        <th><?php echo "yourname from array" ?></th>
-        <th></th> 
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <th><?php echo $my_array["name"] ?></th>
+        <th><?php echo $my_array["address"] ?></th> 
+        <th><?php echo $my_array["username"] ?></th>
+        <th><?php echo $my_array["password"] ?></th>
+        <th><?php echo $my_array["phone"] ?></th>
+        <th><?php echo $my_array["email"] ?></th>
     </tr>
 </table>
 </body>

@@ -2,5 +2,6 @@
 
 //debug the code 
 
-define(ID, 111)
+define("ID"," 111")
 echo ID;
+?>

@@ -8,4 +8,14 @@ $x = 9;
 //print "hi" if the result is greater than 50
 // otherwise print "bye"
 
-
+$x**=$x;
+if ($x<50) {
+    print "Hello";
+}
+elseif($x>50){
+    print"hi";
+}
+else{
+    print"bye";
+}
+?>
