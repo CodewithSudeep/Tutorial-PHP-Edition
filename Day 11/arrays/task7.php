@@ -13,6 +13,8 @@
     $numbers[] = 12;
     // insert the multiples of 12 in similar way
     var_dump($numbers);
+
+    // count the total items in array using count() function
     ?>
 </body>
 </html>
