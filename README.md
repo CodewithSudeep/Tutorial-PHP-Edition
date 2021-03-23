@@ -17,7 +17,10 @@
 - <a href="/Day 2/syntax.md">Comments</a>
 
 ### <a href="/Day 2">Day 5</a>
-<!-- - <a href="/Day 2/syntax.md">Comments</a> -->
-
 ### <a href="/Day 2">Day 6</a>
-<!-- - <a href="/Day 2/syntax.md">Comments</a> -->
+### <a href="/Day 7">Day 7</a>
+### <a href="/Day 8">Day 8</a>
+### <a href="/Day 9">Day 9</a>
+### <a href="/Day 10">Day 10</a>
+### <a href="/Day 11">Day 11</a>
+### <a href="/Day 12">Day 12</a>
