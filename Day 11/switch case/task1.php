@@ -1,16 +1,15 @@
 <?php
 
-# DEBUG
 
 
 $x = 14;
 
-switch (x) {
-    case x>12:
+switch ($x) {
+    case $x>12:
         echo "Number is greater than 12";
         break;
     
-    case x<12:
+    case $x<12:
         echo "Number is less than 12";
         break;
     
@@ -18,3 +17,4 @@ switch (x) {
         echo "Not decided";
         break;
 }
+?>
