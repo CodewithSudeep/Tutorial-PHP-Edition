@@ -1,19 +1,24 @@
 <?php
 
 
-$intro = "Welcome to new social media platform, ";
+$intro = "Welcome to new social media platform ";
 
-$name = //ypur name;
+$name ="Rikesh";
+$result="$intro.$name";
+echo $result;
+echo "<br/>";
 
 //append your name to intro varibale and print the result
 
 
-
+$reverse =strrev($result);
+echo $reverse;
+echo "<br/>";
 
 //print reverse of result
 
-
-
-//print total word count
+$count = strlen($result);
+echo $count;
+?>
 
 

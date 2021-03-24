@@ -2,12 +2,17 @@
 
 //
 
-$name= //your name
-$college= //
+$name="Rikesh";
+
+$college="Nagarjuna college";
 
 
 
-$result= //concatenate two variable
-$count = //count the total character ( string length) of result
+$result= "$name . $college";
+echo $result;
+echo "<br/>";
 
-// print result and count
+$count = strlen($result);
+echo $count;
+?>
+

@@ -1,5 +1,10 @@
 <?php
 
 $x = 12;
+--$x; //pre decrement
+echo $x;
+echo "<br/>";
 
-//use pre and post decrement and print the var
+$x--; //post decrement
+echo $x;
+?>
