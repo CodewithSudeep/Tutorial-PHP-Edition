@@ -3,7 +3,11 @@
 
 $x= 5;
 $y = 3;
-
-//find the product and check whether the result is greater than 100 or is even number or non of these;
-
-
+$prod =$x*$y;
+if($prod>100 || $prod%2==0){
+    echo "might be greater than 100 or even";
+}
+else{
+    echo "neither of them";
+}
+?>

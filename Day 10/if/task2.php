@@ -2,5 +2,9 @@
 
 
 $x = 9;
+$a=$x**2;
+if ($a>50){
+    echo "hello";
+}
+?>
 
-//find square of the given variable and print "hello" if the result is grater than 50

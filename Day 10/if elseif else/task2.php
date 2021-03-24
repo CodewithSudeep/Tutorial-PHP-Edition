@@ -2,10 +2,16 @@
 
 
 $x = 9;
-
-//find square of the given variable and 
-// print "hello" if the result is less than 50 
-//print "hi" if the result is greater than 50
-// otherwise print "bye"
+$sq=$x**2;
+if($sq<50){
+    echo "hello";
+}
+elseif ($sq>50) {
+    echo "hi";
+}
+else{
+    echo "bye";
+}
+?>
 
 

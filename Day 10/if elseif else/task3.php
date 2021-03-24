@@ -2,11 +2,17 @@
 
 $base = 3;
 $power = 4;
-
-//find base to the power and check whether result is 
-// 1. less than 10 or 
-// 2. greater than 60
-// 3. not 1 and 2
+$res=$base**$power;
+if($res<10){
+    echo "less than 10";
+}
+elseif($res>60){
+    echo "greater than 60";
+}
+else{
+    echo "neither less nor greater";
+}
+?>
 
 
 
