@@ -11,10 +11,21 @@
     
     $numbers = array();
     $numbers[] = 12;
+    $numbers[] = 24;
+    $numbers[] = 36;
+    $numbers[] = 48;
+    $numbers[] = 60;
+    $numbers[] = 72;
+    $numbers[] = 84;
+    $numbers[] = 96;
+    $numbers[] = 108;
+    $numbers[] = 120;
+
     // insert the multiples of 12 in similar way
     var_dump($numbers);
-
+    echo "<br/>";
     // count the total items in array using count() function
+    echo count($numbers);
     ?>
 </body>
 </html>
