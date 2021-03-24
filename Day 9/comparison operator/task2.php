@@ -1,5 +1,19 @@
 <?php
+    $a=10;
+    $b=5;
 
-// create two varibale of int data type and perform :
-// 1. greater than 2. small than 3. equals to
-// hint: var_dump(comparison)
+    //1.greater
+  
+    var_dump($a>$b);
+    echo "<br/>";
+
+    //2.smaller
+
+        var_dump($a<$b);
+        echo "<br/>";
+
+     //3.equals
+
+        var_dump($a==$b);
+
+    ?>
