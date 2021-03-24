@@ -7,3 +7,16 @@ $power = 4;
 
 // hint: if(condition){echo  true;}else{echo false;}
 
+$res = $base**$power;
+
+if($res<10)
+{
+    echo "true";
+}
+
+else
+{
+    echo "false";
+}
+
+?>

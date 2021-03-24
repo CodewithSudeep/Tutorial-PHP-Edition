@@ -8,3 +8,7 @@ $false = FALSE;
 //use : &&
  
 //var_dump(result);
+
+var_dump($true && $false);
+
+?>

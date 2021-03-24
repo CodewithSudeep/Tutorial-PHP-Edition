@@ -11,4 +11,29 @@ $y = 3;
 // 4. not 1, 2 and 3
 
 
+$res = $x * $y ;
+$mod = $res % 2;
+
+
+if($res>100 || $mod=0)
+{
+    echo "result is greater than 100 or even";
+}
+
+else if ($res<20 && $mod = 0)
+{
+    echo "the result is less than 20 and even";
+}
+
+else if($res===15 && $res<19)
+{
+
+    echo "the result is identical to 15 and less than 19";
+}
+
+else{
+    echo "none are true";
+}
+
+?>
 

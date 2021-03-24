@@ -8,4 +8,21 @@ $x = 9;
 //print "hi" if the result is greater than 50
 // otherwise print "bye"
 
+$res = $x**2;
 
+
+if($res<50)
+{
+    echo "hello";
+}
+
+else if($res>50)
+{
+    echo "hi";
+}
+
+else{
+    echo "bye";
+}
+
+?>

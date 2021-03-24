@@ -8,5 +8,24 @@ $power = 4;
 // 2. greater than 60
 // 3. not 1 and 2
 
+$res = $base**$power;
+
+if($res<10)
+{
+    echo "the result is less than 10";
+}
+
+else if ($res>60)
+{
+    echo "the result is greater than 60";
+}
+
+else{
+
+    echo "neither less than 10 nor greater than 60";
+}
+
+
+?>
 
 
