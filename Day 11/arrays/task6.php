@@ -17,6 +17,13 @@
 // phone = your phone number
 // email = your email.
 
+ $arr['name'] = "raj tuladhar";
+ $arr['address'] = "champpi";
+ $arr['username'] = "messi razz";
+ $arr['password'] = "idkmf";
+ $arr['phone'] = "98512664";
+ $arr['email'] = 'rashjhjsh@gamil.com';
+
 
 // print the element of array in HTML table
 
@@ -31,12 +38,12 @@
         <th>email</th>
     </tr>
     <tr>
-        <th><?php echo "yourname from array" ?></th>
-        <th></th> 
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <th><?php echo $arr['name']; ?></th>
+        <th><?php echo $arr['address']; ?></th> 
+        <th><?php echo $arr['username']; ?></th>
+        <th><?php echo $arr['password'];?></th>
+        <th><?php echo $arr['phone'];?></th>
+        <th><?php echo $arr['email'];?></th>
     </tr>
 </table>
 </body>
