@@ -4,4 +4,6 @@
 $a = 10;
 $b = 20;
 
-var_dump(a>b); //comparison
+echo "Comprison:(greater than):<br>",var_dump($a>$b); //comparison
+
+?>

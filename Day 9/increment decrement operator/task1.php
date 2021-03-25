@@ -2,5 +2,8 @@
 // debug the code
 
 $x =12;
-$--x; //pre-decrement
-echo $x;
+echo "Before operation : ",$x,"<br>";
+--$x; //pre-decrement
+echo "After pre-increment: <br>=>",$x;
+
+?>
