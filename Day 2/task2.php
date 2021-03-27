@@ -5,4 +5,4 @@ Debug the code
 echo "hello world";
 
 
-&>
+?>
