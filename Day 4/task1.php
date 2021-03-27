@@ -2,5 +2,6 @@
 
 // debig the code 
 
-myname = "jhon"; //a string variable
-echo myname;
+$mynamemyname = "jhon"; //a string variable
+echo $mynamemyname;
+?>

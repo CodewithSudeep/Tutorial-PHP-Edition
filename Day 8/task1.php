@@ -1,4 +1,8 @@
 <?php
-
-//use arithmetic operator to add two int
-//perform same task using assignment operator
+$x=5;
+$y=7;
+$z=$x+$y;
+$x+=$y;
+echo "$x<br>";
+echo $z;
+?>

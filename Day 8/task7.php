@@ -1,3 +1,8 @@
 <?php
-
-//find product of two highest prime number lesser than 100.
+$x=93;
+$y=97;
+$z=$x*$y;
+$x*=$y;
+echo "$z<br>";
+echo $x
+?>

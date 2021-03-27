@@ -1,4 +1,8 @@
 <?php
-
-//use arithmetic operator to subtract two float numbers
-//perform same task using assignment operator
+$x=12.356;
+$y=15.758;
+$z=$x-$y;
+$y-=$x;
+echo "$z<br>";
+echo $y;
+?>
