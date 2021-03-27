@@ -1,3 +1,8 @@
 <?php
-
-//find the value of smallest prime number to the power highest prime number in range 50-100
+$x=51;
+$y=97;
+$z=$x**$y;
+$x**=$y;
+echo "$z<br>";
+echo $x
+?>

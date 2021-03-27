@@ -1,5 +1,6 @@
-Debug the code 
+
 <?php
- echo hello i'm sudeep "";
+// Debug the code 
+ echo "hello i'm sudeep";
 
 ?>
