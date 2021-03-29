@@ -3,7 +3,7 @@
 
 $intro = "Welcome to new social media platform, ";
 
-$name = //ypur name;
+$name ="saksham"; //your name;
 
 //append your name to intro varibale and print the result
 
