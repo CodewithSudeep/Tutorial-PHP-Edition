@@ -1,5 +1,10 @@
 <?php
 
 $x = 12;
-
-//use pre and post decrement and print the var
+echo"$x<br>";
+$var=++$x;
+echo"$var<br>";
+$var1=$x++;
+echo"$var1<br>";
+echo"$x";
+?>

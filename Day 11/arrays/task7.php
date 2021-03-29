@@ -9,8 +9,8 @@
 <body>
     <?php 
     
-    $numbers = array();
-    $numbers[] = 12;
+    $numbers = array(12,24,36,48,60,72,84,96,108,120);
+    $numbers[0] = 12;
     // insert the multiples of 12 in similar way
     var_dump($numbers);
 
