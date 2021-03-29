@@ -2,9 +2,6 @@
 
 # PHP script for handling the form request
 
-#first step
-
-
 ?>
 
 <!DOCTYPE html>

@@ -42,15 +42,48 @@ You need to learn following concept to create a basic calculator:
 
 #### **Part 2.: PHP part**
 ##### Steps:
-3.Html Form Handing is used to get data from the url. In this case, it is used to accept inputs like operand and operator for arithmetic operation.
+3.HTML Form Handing is used to get data from the url. In this case, it is used to accept inputs like operand and operator for arithmetic operation through POST method.
+```
+if ($_SERVER['REQUEST_METHOD'] === 'POST')
+```
+
 
 4.Superglobal Variable which is used to access global variables from anywhere in the PHP script. Data retrieved from html can be accessed throughout the program.
     - isset checks if the variable is defined and also not NULL.  
     - is_numeric finds whether a variable is a number and not other than that.
+    ```
+    if (isset($_POST["calculate"]) && is_numeric($_POST["operand1"]) && is_numeric($_POST["operand2"]))    
+    ```
 
  5.Type of operator and operand is determined by using if statement. For operand, numeric value is used whereas for operator, '+', '-','/','%', '**' are used. Data type other than these are shown undefined.
 
+
 6.Finally, we will use switch case to perform arithmetic operation of given inputs.
+```
+switch ($operator) {
+            case '+':
+                $result = $operand1+$operand2;
+                break;
+            case '-':
+                $result = $operand1-$operand2;
+                break;
+            case '*':
+                $result = $operand1*$operand2;
+                break;
+            case '/':
+                $result = $operand1/$operand2;
+                break;
+            case '%':
+                $result = $operand1%$operand2;
+                break;
+            case '**':
+                $result = $operand1**$operand2;
+                 break;
+            default:
+               $result = "Operation not allowed";
+                break;
+        }
+```
 
 7.Then, Result is displayed as an output by using php echo statement to print the output to the screen.
    
