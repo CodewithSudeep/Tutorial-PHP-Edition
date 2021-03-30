@@ -66,7 +66,15 @@ input[type="submit"]{
     align-items: center;
 }
 .topbar button{
-    padding: 5px;
+    padding: 10px;
     background-color: black;
     color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.topbar .active{
+    color: black;
+    background-color: rgb(221 204 64);
 }

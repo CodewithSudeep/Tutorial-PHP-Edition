@@ -4,3 +4,6 @@
 // 1. server name
 //2. http host
 //3. remote address
+
+echo $_SERVER["SERVER_NAME"];
+echo "<br/>";
