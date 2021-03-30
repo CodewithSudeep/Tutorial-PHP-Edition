@@ -5,7 +5,7 @@
 
 $x = 14;
 
-switch (x) {
+switch ($x) {
     case x>12:
         echo "Number is greater than 12";
         break;
@@ -18,3 +18,4 @@ switch (x) {
         echo "Not decided";
         break;
 }
+?>

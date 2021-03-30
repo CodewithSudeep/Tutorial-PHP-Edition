@@ -1,5 +1,7 @@
 Debug the code 
+
 <?php
- echo hello i'm sudeep "";
+
+ echo "hello i'm sudeep" ;
 
 ?>
