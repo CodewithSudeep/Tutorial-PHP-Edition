@@ -23,7 +23,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             $result = "The remainder is ".$operand1%$operand2;
             break;
         case '**':
-            $result = $operand1**$operand2;
+            $result = "The exponent is ".$operand1**$operand2;
              break;
         default:
            $result = "Operation not allowed";
