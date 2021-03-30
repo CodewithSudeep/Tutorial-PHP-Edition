@@ -95,3 +95,4 @@ switch ($operator) {
 9%4=1
 3**2=9
 
+Contributor :  @Garima KC
