@@ -18,6 +18,8 @@
 // email = your email.
 
 
+$my_details = array("name"=>"Rikesh shrestha","address"=>"kusunti","username"=>"rikesh-a11","pw"=>"riksum890","phone"=>"9880671393","email"=>"rikeshshrestha499@gmail.com");
+
 // print the element of array in HTML table
 
 ?>
@@ -31,12 +33,12 @@
         <th>email</th>
     </tr>
     <tr>
-        <th><?php echo "yourname from array" ?></th>
-        <th></th> 
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <th><?php echo $my_details["name"] ?></th>
+        <th><?php echo $my_details["address"]?></th> 
+        <th><?php echo $my_details["username"]?> </th>
+        <th> <?php echo $my_details["pw"]?></th>
+        <th><?php echo $my_details["phone"]?></th>
+        <th><?php echo $my_details["email"]?></th>
     </tr>
 </table>
 </body>

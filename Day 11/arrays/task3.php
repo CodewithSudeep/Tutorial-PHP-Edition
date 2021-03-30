@@ -1,4 +1,11 @@
 <?php
 
-//create an array for your fav destination to visit ( minimum 5)
-// concatinate 3th item with 5th item and print the result
+$place =array("ktm","pokhara","lumbini","ilam","mustang");
+echo var_dump($place);
+
+echo "<br/>";
+
+$x=$place[2].$place[4];
+echo var_dump($x);
+?>
+
