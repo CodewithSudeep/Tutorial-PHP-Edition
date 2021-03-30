@@ -8,6 +8,7 @@ $power = 4;
 // 2. greater than 60
 // 3. not 1 and 2
 
+<<<<<<< HEAD
 $res = $base**$power;
 
 if($res<10)
@@ -27,5 +28,7 @@ else{
 
 
 ?>
+=======
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56
 
 

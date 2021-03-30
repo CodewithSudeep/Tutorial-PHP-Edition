@@ -2,6 +2,7 @@
 
 //create 5 constant for country name and their short code 
 //example : AUS for austrlai : define("AUS","australia);
+<<<<<<< HEAD
 //and print them using html table with column country name and shortcode
 
 define("AUS","Australia");
@@ -38,3 +39,6 @@ define("RUS","Russia");
     </table>
 </body>
 </html>
+=======
+//and print them using html table with column country name and shortcode
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

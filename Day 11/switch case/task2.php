@@ -2,8 +2,12 @@
 
 $x= 9;
 
+<<<<<<< HEAD
 $square = 81;   // square of $x
 // $mod = $square % 2 ;
+=======
+$square = // square of $x
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56
 
 // use case case to determine
 // 1. resut is even number
@@ -12,6 +16,7 @@ $square = 81;   // square of $x
 // 4. result is less than 100 and and greater than 80
 // not 1 2 3 4 { not decided }
 
+<<<<<<< HEAD
 switch ($square)
 {
 case $square %2 ==0 :
@@ -32,3 +37,5 @@ case $square %2 ==0 :
 
 }
 ?>
+=======
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 // create a varibale and store basic syntax of php in it. print the variable using echo and <code> tag of HTML
 $var=  "< ? php ..... ? >";
 
@@ -18,3 +19,6 @@ $var=  "< ? php ..... ? >";
                    <code><?php echo $var; ?></code>
                </body>
                </html>
+=======
+// create a varibale and store basic syntax of php in it. print the variable using echo and <code> tag of HTML
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+    max-height: 100vh;
+}
+.main{
+    width: 50%;
+    margin: 70px auto;
+}
+.screen{
+    border-radius: 5px;
+    background: #ededed;
+    box-shadow:  30px 30px 60px #c9c9c9,
+                 -30px -30px 60px #ffffff;
+    padding: 15px;
+}
+.display{
+    width: 90%;
+    margin: auto;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 100%;
+}
+.row{
+    width: 90%;
+    margin: 26px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    width: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.buttons{
+    margin: 30px 0px;
+}
+.equalto-btn{
+    width: 45%  !important;
+    background: #adc9f6;
+}
+
+.clear-btn{
+    width: 45%  !important;
+    background: #56e781;
+}
+
+.operator{
+    background-color: #adc9f6;
+}
+.number{
+    background-color: #c9c9c9;
+}

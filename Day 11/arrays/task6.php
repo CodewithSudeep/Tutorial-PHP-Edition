@@ -16,18 +16,25 @@
 // password = a password
 // phone = your phone number
 // email = your email.
+<<<<<<< HEAD
 $array = array("name"=>"sarbendra sigdel",
 "address"=>"thankot",
 "username"=>"sarbendrasigdel541",
 "password"=>"flower123",
 "phone"=>"9860672399",
 "email"=>"sarbendrasigdel1232@gmail.com");
+=======
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56
 
 
 // print the element of array in HTML table
 
 ?>
+<<<<<<< HEAD
 <table border="1">
+=======
+<table>
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56
     <tr>
         <th>Name</th>
         <th>Address</th>
@@ -37,12 +44,21 @@ $array = array("name"=>"sarbendra sigdel",
         <th>email</th>
     </tr>
     <tr>
+<<<<<<< HEAD
         <th><?php echo $array['name'] ?></th>
         <th><?php echo $array['address'] ?></th> 
         <th><?php echo $array['username'] ?></th>
         <th><?php echo $array['password'] ?></th>
         <th><?php echo $array['phone'] ?></th>
         <th><?php echo $array['email'] ?></th>
+=======
+        <th><?php echo "yourname from array" ?></th>
+        <th></th> 
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56
     </tr>
 </table>
 </body>

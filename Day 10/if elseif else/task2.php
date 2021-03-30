@@ -8,6 +8,7 @@ $x = 9;
 //print "hi" if the result is greater than 50
 // otherwise print "bye"
 
+<<<<<<< HEAD
 $res = $x**2;
 
 
@@ -26,3 +27,6 @@ else{
 }
 
 ?>
+=======
+
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

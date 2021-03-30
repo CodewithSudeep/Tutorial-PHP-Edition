@@ -5,6 +5,7 @@ $true = TRUE;
 $false = TRUE;
 
 //perform all logical operator 
+<<<<<<< HEAD
 
 // AND
 
@@ -28,3 +29,5 @@ var_dump($true xor $false);
 echo "<br/>";
 
 ?>
+=======
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

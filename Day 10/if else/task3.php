@@ -7,6 +7,7 @@ $power = 4;
 
 // hint: if(condition){echo  true;}else{echo false;}
 
+<<<<<<< HEAD
 $res = $base**$power;
 
 if($res<10)
@@ -20,3 +21,5 @@ else
 }
 
 ?>
+=======
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

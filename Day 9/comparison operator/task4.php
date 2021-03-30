@@ -1,6 +1,7 @@
 <?php
 
 // create two varibale of int data type and perform :
+<<<<<<< HEAD
 // 1. identical 2. not identical 3. spaceship
 
 $a = 4;
@@ -17,3 +18,6 @@ var_dump($a!==$b);
 var_dump($a<=>$b);
 
 ?>
+=======
+// 1. identical 2. not identical 3. spaceship
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

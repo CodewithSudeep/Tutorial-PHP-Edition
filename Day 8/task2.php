@@ -1,6 +1,7 @@
 <?php
 
 //use arithmetic operator to subtract two float numbers
+<<<<<<< HEAD
 //perform same task using assignment operator
 
 $n1 = 2.456;
@@ -18,3 +19,6 @@ echo "<br/>";
 echo $n1 -= $n2;
 
 ?>
+=======
+//perform same task using assignment operator
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 // perform modulo operation between two smallest prime number
 
 $n1 = 2;
@@ -17,3 +18,6 @@ echo "<br/>";
 echo $n1 %= $n2;
 
 ?>
+=======
+// perform modulo operation between two smallest prime number
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

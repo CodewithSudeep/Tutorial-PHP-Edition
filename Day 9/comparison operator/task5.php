@@ -1,6 +1,7 @@
 <?php
 
 // create two varibale of int data type and perform :
+<<<<<<< HEAD
 // all comparison operator
 
 $a = 46;
@@ -43,3 +44,6 @@ var_dump($a<=>$b);
 echo "<br/>";
 
 ?>
+=======
+// all comparison operator
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

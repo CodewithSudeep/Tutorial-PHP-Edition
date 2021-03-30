@@ -10,6 +10,7 @@
     <?php 
     
     $numbers = array();
+<<<<<<< HEAD
     $numbers[0] = 12;
     // insert the multiples of 12 in similar way
     $numbers[1] = 24;
@@ -27,6 +28,13 @@ echo "<br/>";
     // count the total items in array using count() function
 
     echo count($numbers);
+=======
+    $numbers[] = 12;
+    // insert the multiples of 12 in similar way
+    var_dump($numbers);
+
+    // count the total items in array using count() function
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56
     ?>
 </body>
 </html>

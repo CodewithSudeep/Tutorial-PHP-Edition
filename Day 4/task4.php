@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 // create two variables for string data type and print then using h1 HTML tag.
 $name="sarbendra sigdel";
 $addr="thankot";
@@ -18,3 +19,6 @@ $addr="thankot";
     
 </body>
 </html>
+=======
+// create two variables for string data type and print then using h1 HTML tag.
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56

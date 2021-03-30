@@ -8,6 +8,7 @@ $y = 4;
 // 2. whether the result is greater than 4 and is odd number
 // 3. not 1 and 2
 
+<<<<<<< HEAD
 $mod = $x % $y;
 $m2 = $mod % 2;
 
@@ -25,3 +26,5 @@ else{
     echo "neither of 1 and 2";
 }
 ?>
+=======
+>>>>>>> 71994c9f410452eaf0e0957001126ab7156dba56
