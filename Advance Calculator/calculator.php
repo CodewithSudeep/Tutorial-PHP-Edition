@@ -12,6 +12,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
     $result="";
     
     # checking the type of operation
+
+    #  arithmetic operation
     if (isset($_POST["arithmetic"])) {
         
         # for arithmetic operation
@@ -64,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
         }
     }
 
-
+    #  trignometric operation
     if (isset($_POST["trignometric"])) {
         #in case of trignometric function oprand1 is treated as contant, operand2 is value of radian
         # operator have 3 string value for math functions: sin,cos,tan
@@ -100,6 +102,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
         }
     
     }
+
+    #  conversion operation
 
     if (isset($_POST["conversion"])) {
         #in case of cenversion operation oprand1 is treated as number
@@ -156,6 +160,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
             $final = "Error : Given operand is non numberic";
         }
     }
+
+    #  logarithmic operation
 
     if (isset($_POST["logarithmic"])) {
         #in case of logarithmic operation oprand1 is treated as contant, operand2 is value of number of which natural log is to be find
