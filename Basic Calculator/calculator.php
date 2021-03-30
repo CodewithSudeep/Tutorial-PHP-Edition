@@ -5,7 +5,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
      $operand1 = $_POST['operand1'];
      $operand2 = $_POST['operand2'];
      $operator = $_POST['operator'];
- if($operator=='+'||$operator=='-'||$operator=='*'||$operator=='/'||$operator=='%'||$operator=='**'){
+ if(is_string($operator)){
      switch ($operator) {
         case '+':
             $result = "The sum is ".$operand1+$operand2;
