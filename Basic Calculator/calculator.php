@@ -8,19 +8,19 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
  if($operator=='+'||$operator=='-'||$operator=='*'||$operator=='/'||$operator=='%'||$operator=='**'){
      switch ($operator) {
         case '+':
-            $result = $operand1+$operand2;
+            $result = "The sum is ".$operand1+$operand2;
             break;
         case '-':
-            $result = $operand1-$operand2;
+            $result = "The difference is ".$operand1-$operand2;
             break;
         case '*':
-            $result = $operand1*$operand2;
+            $result ="The product is ".$operand1*$operand2;
             break;
         case '/':
-            $result = $operand1/$operand2;
+            $result = "The dividand is ".$operand1/$operand2;
             break;
         case '%':
-            $result = $operand1%$operand2;
+            $result = "The remainder is ".$operand1%$operand2;
             break;
         case '**':
             $result = $operand1**$operand2;
