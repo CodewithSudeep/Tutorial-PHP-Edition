@@ -96,3 +96,4 @@ switch ($operator) {
 3**2=9
 
 Contributor :  Garima KC [https://github.com/Garimakc11]
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
