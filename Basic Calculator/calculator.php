@@ -1,4 +1,42 @@
 <?php
+        if($_SERVER["REQUEST_METHOD"]=="POST")
+            {
+                if (isset($_POST["calculate"]) && is_numeric($_POST["operand1"]) && is_numeric($_POST["operand2"]))
+                {
+                    $operator=$_POST["operator"];
+                    $operand1=$_POST["operand1"];
+                    $operand2=$_POST["operand2"];
+                    if(is_string($operator))
+                    {
+                    switch ($operator){
+                        case "+":
+                            $result="The sum is ".$operand1+$operand2;
+                            break;
+                        case "-":
+                            $result="The difference is ".$operand1-$operand2;
+                            break;
+                        case "*":
+                            $result="The product is ".$operand1*$operand2;
+                            break;
+                        case "/":
+                            $result="The quotient is ".$operand1/$operand2;
+                            break;
+                        case "%":
+                            $result="The remainder is ".$operand1%$operand2;
+                            break;
+                        case "**":
+                            $result="The exponent is ".$operand1**$operand2;
+                            break;
+                        default:
+                            $result = "Operation not allowed";
+                            break;
+                            }
+                    }
+                }
+                else{
+                    $result="Undefined Operator";
+                }
+            }
 
 # PHP script for handling the form request
 
@@ -17,6 +55,7 @@
     <div class="main">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
+        <b><?php if(isset($result)){ echo "Result: ".$result; } ?></b><br/>
         Number A: <input type="number" name="operand1" required><br/>
         Number B: <input type="number" name="operand2" required><br/>
         Operator : <select name="operator" required>
