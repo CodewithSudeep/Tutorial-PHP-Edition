@@ -17,7 +17,6 @@
     <div class="main">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
-        <b><?php if(isset($final)){ echo "Result: ".$final; } ?></b><br/>
         Number A: <input type="number" name="operand1" required><br/>
         Number B: <input type="number" name="operand2" required><br/>
         Operator : <select name="operator" required>
