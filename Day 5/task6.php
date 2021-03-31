@@ -1,4 +1,3 @@
-
 <?php 
 
 //create 5 constant for country name and their short code 

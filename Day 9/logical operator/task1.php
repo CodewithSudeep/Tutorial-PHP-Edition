@@ -1,6 +1,5 @@
 <?php
 
-
 $true = TRUE;
 $false = FALSE;
 

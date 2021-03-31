@@ -2,7 +2,6 @@
 
 
 
-
 # CREATING AN ARRAY
 
 $myArray = array (1,3,4,56,7);
