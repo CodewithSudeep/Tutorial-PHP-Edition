@@ -11,7 +11,7 @@ body{
     box-sizing: border-box;
     min-height: 50vh;
     border-radius: 17px;
-background: linear-gradient(145deg, #d5d5d5, #fefefe);
+    background: linear-gradient(to right top, #f9eaf2, #ffd3da, #ffc2a9, #ffbd6d, #ccc437, #b4c92c, #96cd28, #6fd12f, #93d428, #b3d727, #cfd92c, #eada37);
 box-shadow:  31px 31px 24px #d3d3d3,
              -31px -31px 24px #ffffff;
 }
