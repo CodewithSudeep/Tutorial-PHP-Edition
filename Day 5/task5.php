@@ -1,6 +1,7 @@
 <?php 
 
-// create a case constant for integer data type
-
+// create a constant for integer data type
+define('num',23);
+echo num;
 
 ?>

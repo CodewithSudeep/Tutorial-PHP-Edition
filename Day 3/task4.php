@@ -1,3 +1,4 @@
 <?php 
-
-//write a program to demonstrate the use of multi line comments
+echo"hello world";
+//this is normal php program
+?>
