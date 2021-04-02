@@ -81,18 +81,18 @@ some php math functions are:
 
 
 
-##Working mechanism:
-#####I.HTML Part:
-1. We have a multiple-tab HTML form. 
+## Working mechanism:
+##### I.HTML Part:
+**1. We have a multiple-tab HTML form.**
 
-2. Label is created under form column to insert operands: numbers and one label to insert operator: ```'+', '-','/','%', '**',sin,cos,tan,bin-dec,rad-deg,Natural log``` and so on..
+**2. Label is created under form column to insert operands: numbers and one label to insert operator: ```'+', '-','/','%', '**',sin,cos,tan,bin-dec,rad-deg,Natural log``` and so on..**
 
-3. Each type of operation is done in separate form by switching the active form. 
+**3. Each type of operation is done in separate form by switching the active form.**
 
 
-#####II. PHP Part
+##### II. PHP Part
 
-4. HTML Form Handing is used to get data from the url. In this case, it is used to accept inputs like operand and operator for operations like ```'+', '-','/','%', '**',sin,cos,tan,bin-dec,rad-deg,Natural log```through POST method.
+**4. HTML Form Handing is used to get data from the url. In this case, it is used to accept inputs like operand and operator for operations like ```'+', '-','/','%', '**',sin,cos,tan,bin-dec,rad-deg,Natural log```through POST method.**
 
  ```
  #PHP script for handling the form request
@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
     
  ```
 
-4.After form submission, **in PHP**, at first, the type of operation is determined( if condition, superglobal).
+**4.After form submission, **in PHP**, at first, the type of operation is determined( if condition, superglobal).**
  
 ```
 <?php
@@ -135,7 +135,7 @@ if (isset($_POST["logarithmic"])) {
 }
  ```
 
-5.Once the type of operation is obtained, we perform each operation in separate if statement block as highlighted below:
+**5.Once the type of operation is obtained, we perform each operation in separate if statement block as highlighted below:**
 
 
 **(a).For Arithmetic operation** *(Refer to basic calculator)*
