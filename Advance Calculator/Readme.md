@@ -157,7 +157,7 @@ if (isset($_POST["logarithmic"])) {
 **6. Once the type of operation is obtained, we perform each operation in separate if statement block as highlighted below:**
 
 
-**(a).For Arithmetic operation** *(Refer to basic calculator)*
+**6(a).For Arithmetic operation** *(Refer to basic calculator)*
 - we will use switch case to perform arithmetic operation of given inputs.
 -  Math functions used here are:
 
@@ -190,7 +190,7 @@ switch ($operator) {
         }
  ```
 
-**(b)For trigonometric function:**
+**6(b)For trigonometric function:**
 - In a if block, all trignometric operations can be operated by specifying operand as constant and radian whereas operator to be  math functions:``sin,cos,tan``
 - Math functions used here are:
 
@@ -242,7 +242,7 @@ if (isset($_POST["trignometric"])) {
     
     }
 ```
-**(c)For Conversion Operation:**
+**6(c)For Conversion Operation:**
  - In case of conversion operation,operand1 is treated as number and operator have total 8 string values of conversion i.e.
 ``Dec-Bin``
 
@@ -337,7 +337,7 @@ if (isset($_POST["conversion"])) {
         }
     }
 ``` 
-**(d)For Logarithmic Operation:**   
+**6(d)For Logarithmic Operation:**   
 - In case of logarithmic operation, operand1 is constant, operand2 is the value of number of which natural log is to be find and operator have  3 string value for math functions:log, log10 and exp.
 
 ``` log()  -> 	Returns the natural logarithm of a number```
@@ -390,7 +390,7 @@ if (isset($_POST["conversion"])) {
 As demonstrated above,  we use the concept of PHP math library. It contains number of mathematics functions. 
 *For complete reference visit: [w3schools](https://www.w3schools.com/php/php_ref_math.asp) for more php math functions.* 
 
-##Demo Result: 
+## Demo Result: 
 Some screenshots of results are uploaded below:
 ##### 1.Arithmetic operations:
 - **Addition**
