@@ -28,13 +28,15 @@
 - Sine of number
 - Cosine of number
 - Tangent of number
-- ![feature trigonometric](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/a6185f513d7b70b2289525c77158c2ac79c68ce6/Advance%20Calculator/screenshots/calc%20operation%202.PNG)
+
+![feature trigonometric](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/a6185f513d7b70b2289525c77158c2ac79c68ce6/Advance%20Calculator/screenshots/calc%20operation%202.PNG)
 
 ### 3. Logarithmic operations
 - Natural log 
 - Log10
 - e (Exponent)
-- ![feature logarithmic](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/a6185f513d7b70b2289525c77158c2ac79c68ce6/Advance%20Calculator/screenshots/calc%20operation%203.PNG)
+
+![feature logarithmic](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/a6185f513d7b70b2289525c77158c2ac79c68ce6/Advance%20Calculator/screenshots/calc%20operation%203.PNG)
 
 ### 4.Base Conversion:
 - Decimal to Binary
@@ -46,7 +48,8 @@
 - Radian to Degree
 - Degree to Radian
 
-- ![feature conversion](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/a6185f513d7b70b2289525c77158c2ac79c68ce6/Advance%20Calculator/screenshots/calc%20operation%204.PNG)
+![feature conversion](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/a6185f513d7b70b2289525c77158c2ac79c68ce6/Advance%20Calculator/screenshots/calc%20operation%204.PNG)
+
 ## PHP concept used:
 - **Arithmetic operations**:Same like in Basic Calculator,it consists of operations like ```+,-,/,%```
 
