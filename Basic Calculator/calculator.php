@@ -1,8 +1,45 @@
 <?php
+# PHP script for handling the form request   
+if($_SERVER['REQUEST_METHOD']==="POST"){
+    if( isset($_POST['calculate']) && is_numeric($_POST['operand1']) && is_numeric($_POST['operand2']) ){
+        $op1=$_POST['operand1'];
+        $op2=$_POST['operand2'];
+        $operator=$_POST['op'];
+        if(is_string($operator)){
+            switch($operator){
+                case '+':
+                    $result=$op1 + $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '-':
+                    $result=$op1 - $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '*':
+                    $result=$op1 * $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '/':
+                    $result=$op1 / $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '%':
+                    $result=$op1 % $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '**':
+                    $result=$op1 ** $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;  
+                 default:
+                    echo "invalid operator";   
+            }
+        }
+        
 
-# PHP script for handling the form request
-
-?>
+    }
+}
+    ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +56,7 @@
         <div class="inputs">
         Number A: <input type="number" name="operand1" required><br/>
         Number B: <input type="number" name="operand2" required><br/>
-        Operator : <select name="operator" required>
+        Operator : <select name="op" required>
             <option value="-">-</option>
             <option value="+">+</option>
             <option value="*">*</option>
@@ -31,5 +68,8 @@
         </div>
     </form>
     </div>
+
+
 </body>
 </html>
+
