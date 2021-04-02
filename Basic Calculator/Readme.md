@@ -19,9 +19,9 @@ You need to learn following concept to create a basic calculator:
 - **switch** : The switch statement is similar to a series of IF statements on the same expression.
 
 
-- **Form handling and  $_GETand $ _Post**:  This is used to get data from the url.
+- **Form handling** and ``` $_GET```and```$ _Post```:  This is used to get data from the url.
 
-- **Super global variable** : **$_GLOBALS** : It is a superglobal variable which is used to access global variables from anywhere in the PHP script.
+- **Super global variable** : ```**$_GLOBALS** ```: It is a superglobal variable which is used to access global variables from anywhere in the PHP script.
 
 
 
@@ -38,7 +38,7 @@ You need to learn following concept to create a basic calculator:
 #### **Part I: HTML Part**
 ##### Steps:
 1. First of all, html form is created which will send the data to itself.
-2. Two  Label is created under form column to insert operands: numbers and one label to insert operator:'+', '-','/','%', '**'
+2. Two  Label is created under form column to insert operands: numbers and one label to insert operator: ```'+', '-','/','%', '**'```
 
 #### **Part 2.: PHP part**
 ##### Steps:
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
     if (isset($_POST["calculate"]) && is_numeric($_POST["operand1"]) && is_numeric($_POST["operand2"]))    
     ```
 
- 5.Type of operator and operand is determined by using if statement. For operand, numeric value is used whereas for operator, '+', '-','/','%', '**' are used. Data type other than these are shown undefined.
+ 5.Type of operator and operand is determined by using if statement. For operand, numeric value is used whereas for operator,``` '+', '-','/','%', '**'``` are used. Data type other than these are shown undefined.
 
 
 6.Finally, we will use switch case to perform arithmetic operation of given inputs.
@@ -88,11 +88,12 @@ switch ($operator) {
 7.Then, Result is displayed as an output by using php echo statement to print the output to the screen.
    
 ## DEMO RESULT
-2+9=4
+```2+9=4
 3*12=36
 5-2=3
 12/3=4
 9%4=1
 3**2=9
+```
 
 Contributor :  [Garima KC](https://github.com/Garimakc11 "Garima KC")

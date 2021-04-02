@@ -35,6 +35,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
                     break;
                 case '/':
                     //handling "division by zero" error
+                    //run gara
                     if ($operand2>0) {
                         $result = $operand1/$operand2;
                         $raw="$operand1/$operand2";
