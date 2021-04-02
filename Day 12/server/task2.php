@@ -15,7 +15,12 @@ echo "<br/>";
 
 //3. remote address
 
+<<<<<<< HEAD
 echo $_SERVER['REMOTE_ADDR'];
 
 
 ?>
+=======
+echo $_SERVER["SERVER_NAME"];
+echo "<br/>";
+>>>>>>> b218067becdcb46c38497d185e0632c5c188c1ab

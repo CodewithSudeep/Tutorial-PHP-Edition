@@ -57,6 +57,52 @@ else {
     }
 
 
+#first step
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    # The request is using the POST method
+    if (isset($_POST["calculate"]) && is_numeric($_POST["operand1"]) && is_numeric($_POST["operand2"])) {
+        # checks if calculate button is set
+        #second step
+        $operand1 = $_POST["operand1"];
+        $operand2 = $_POST["operand2"];
+        $operator = $_POST["operator"];
+        $result="";
+        #final step
+        switch ($operator) {
+            case '+':
+                $result = $operand1+$operand2;
+                break;
+            case '-':
+                $result = $operand1-$operand2;
+                break;
+            case '*':
+                $result = $operand1*$operand2;
+                break;
+            case '/':
+                $result = $operand1/$operand2;
+                break;
+            case '%':
+                $result = $operand1%$operand2;
+                break;
+            case '**':
+                $result = $operand1**$operand2;
+                 break;
+            default:
+               $result = "Operation not allowed";
+                break;
+        }
+
+        if (is_numeric($result)) {
+            $final = "$operand1".$operator."$operand2 = ".$result;
+        }
+        else{
+            $final =$result;
+        }
+    }else{
+        $final = "given operand is non numberic";
+    }
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -72,7 +118,11 @@ else {
     <div class="main">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
+<<<<<<< HEAD
         <b><?php if(isset($result)){ echo "Result: ".$result; } ?></b><br/>
+=======
+        <b><?php if(isset($final)){ echo "Result: ".$final; } ?></b><br/>
+>>>>>>> b218067becdcb46c38497d185e0632c5c188c1ab
         Number A: <input type="number" name="operand1" required><br/>
         Number B: <input type="number" name="operand2" required><br/>
         Operator : <select name="operator" required>

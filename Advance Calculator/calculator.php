@@ -2,40 +2,6 @@
 
 # PHP script for handling the form request
 
-#first step
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    # The request is using the POST method
-    if (isset($_POST["arithmetic"]) && is_numeric($_POST["operand1"]) && is_numeric($_POST["operand2"])) {
-        # checks if calculate button is set
-        #second step
-        $operand1 = $_POST["operand1"];
-        $operand2 = $_POST["operand2"];
-        $operator = $_POST["operator"];
-        $result="";
-        #final step
-        switch ($operator) {
-            case '+':
-                $result = $operand1+$operand2;
-                break;
-            case '-':
-                $result = $operand1-$operand2;
-                break;
-            case '*':
-                $result = $operand1*$operand2;
-                break;
-            case '/':
-                $result = $operand1/$operand2;
-                break;
-            case '%':
-                $result = $operand1%$operand2;
-                break;
-            case '**':
-                $result = $operand1**$operand2;
-                 break;
-            default:
-               $result = "Operation not allowed";
-                break;
-        }
 
         if (is_numeric($result)) {
             $final = "$operand1".$operator."$operand2 = ".$result;
@@ -206,16 +172,19 @@ else{
         <button id="simple">Arithmetic</button>
         <button id="trignometric">Trignometric</button>
         <button id="conversion">Conversion</button>
-        <button id="log">Log</button>
+        <button id="log">Logarithmic</button>
     </div>
-    <b><?php if(isset($final)){ echo "Result: ".$final; } ?></b><br/>
-
+    <?php if(isset($final)){ ?>
+    <span class="result">
+        <b><?php echo $final; ?></b><br/>
+    </span>
+    <?php } ?>
     <div id="simplecalc">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
        
-        Number A: <input type="number" name="operand1" required><br/>
-        Number B: <input type="number" name="operand2" required><br/>
+        Number A: <input type="text" name="operand1" required><br/>
+        Number B: <input type="text" name="operand2" required><br/>
         Operator : <select name="operator" required>
             <option value="-">-</option>
             <option value="+">+</option>
@@ -233,8 +202,8 @@ else{
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
        
-        Constant: <input type="number" name="operand1" required><br/>
-        Angle (&theta;) : <input type="number" name="operand2" required><br/>
+        Constant: <input type="text" name="operand1" required><br/>
+        Angle (&theta;) : <input type="text" name="operand2" required><br/>
         Operator : <select name="operator" required>
             <option value="sin">sin&theta;</option>
             <option value="cos">cos&theta;</option>
@@ -248,7 +217,7 @@ else{
     <div id="conversioncalc">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
-        Number: <input type="number" name="operand1" required><br/>
+        Number: <input type="text" name="operand1" required><br/>
         Operator : <select name="operator" required>
             <option value="bindec">BIN-DEC</option>
             <option value="decbin">DEC-BIN</option>
@@ -267,15 +236,15 @@ else{
     <div id="logcalc">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
-       <p>xlog(y)</p>
-        X: <input type="number" name="operand1" required><br/>
-        Y: <input type="number" name="operand2" required><br/>
+       <p>xlog(y) OR xY<sup>e</sup></p>
+        X: <input type="text" name="operand1" required><br/>
+        Y: <input type="text" name="operand2" required><br/>
         Operator : <select name="operator" required>
-            <option value="log">log</option>
-            <option value="log10">log10</option>
-            <option value="exp">e (exponent)</option>
+            <option value="log">Natural log</option>
+            <option value="log10">log10 - base-10 logarithm</option>
+            <option value="exp">Y<sup>e</sup> - exponent</option>
         </select><br/>
-        <input type="submit" name="calculate" value="Calculate"><br/>
+        <input type="submit" name="logarithmic" value="Calculate"><br/>
         </div>
     </form>
     </div>

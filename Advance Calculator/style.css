@@ -24,7 +24,7 @@ box-shadow:  31px 31px 24px #d3d3d3,
     margin: 10px auto;
     padding: 10px;
 }
-input[type="number"]{
+input[type="text"]{
     height: 25px;
     width: 50%;
     border: none;
@@ -66,7 +66,23 @@ input[type="submit"]{
     align-items: center;
 }
 .topbar button{
-    padding: 5px;
+    padding: 10px;
     background-color: black;
     color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.topbar .active{
+    color: black;
+    background-color: rgb(221 204 64);
+}
+.result{
+    width: 50%;
+    margin: auto;
+    display: block;
+    background: dimgray;
+    color: white;
+    text-align: center;
 }
