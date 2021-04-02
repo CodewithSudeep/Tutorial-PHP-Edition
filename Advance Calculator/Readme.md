@@ -54,30 +54,48 @@
 
 - **Superglobals**: Superglobals can always beaccessible, regardless of scope - and you can access them from any function, class or file without having to do anything special.  
 we will use ```$GLOBALS``` ```$_GET``` ```$_POST``` ```$_REQUEST```
+
 - **PHP math** : PHP has a set of math functions that allows you to perform mathematical tasks on numbers. The PHP math functions are part of the PHP core. No installation is required to use these functions. 
 some php math functions are:
+
    ***For arithmetic operation:***
-  ``` fmod() ->	Returns the remainder of x/y```
+   
+   ```fmod() ->	Returns the remainder of x/y```
+   
    ```exp()  ->	Calculates the exponent of e```
+   
    ***For trigonometric operation:***
+   
    ```sin() -> 	Returns the sine of a number```
-  ```cos() -> 	Returns the cosine of a number```
+   
+   ```cos() -> 	Returns the cosine of a number```
+   
    ```tan() -> 	Returns the tangent of a number```
+   
    ***For base conversion***
+   
    ```decbin() ->	Converts a decimal  to a binary ```
+   
    ```dechex() -> Converts a decimal  to a hexadecimal ```
+   
    ```decoct() -> Converts a decimal  to an octal ```
-      ```hexdec() -> Converts a hexadecimal number to a decimal ```
+   
+   ```hexdec() -> Converts a hexadecimal number to a decimal ```
+   
    ```deg2rad() ->	Converts a degree value to a radian ```
-***For logarithmic opertion***
+   
+  ***- For logarithmic opertion***
+  
   ``` log()  -> 	Returns the natural logarithm of a number```
+  
   ```log10() -> Returns the base-10 logarithm of a number```
+  
   ```log1p() -> Returns log(1+number)```
   
 
 
 
- Link for reference:[Link](https://www.w3schools.com/php/php_ref_math.asp) for more php math functions
+ *For complete reference visit: [w3schools](https://www.w3schools.com/php/php_ref_math.asp) for more php math functions.* 
 
 
 
@@ -140,8 +158,11 @@ if (isset($_POST["logarithmic"])) {
 
 
 **(a).For Arithmetic operation** *(Refer to basic calculator)*
-- we will use switch case to perform arithmetic operation of given inputs. Math functions used here are:
+- we will use switch case to perform arithmetic operation of given inputs.
+-  Math functions used here are:
+
 ``` fmod() ->	Returns the remainder of x/y```
+
    ```exp()  ->	Calculates the exponent of e```
 ```
 switch ($operator) {
@@ -170,12 +191,17 @@ switch ($operator) {
  ```
 
 **(b)For trigonometric function:**
-In a if block, all trignometric operations can be operated by specifying operand as constant and radian whereas operator to be  math functions:``sin,cos,tan``
-Math functions used here are:
+- In a if block, all trignometric operations can be operated by specifying operand as constant and radian whereas operator to be  math functions:``sin,cos,tan``
+- Math functions used here are:
+
  ``` For trigonometric operation:```
+ 
  ```sin() -> 	Returns the sine of a number```
+ 
  ```cos() -> 	Returns the cosine of a number```
+ 
  ```tan() -> 	Returns the tangent of a number```
+ 
  ```deg2rad() ->	Converts a degree value to a radian ```
 
 
@@ -217,25 +243,43 @@ if (isset($_POST["trignometric"])) {
     }
 ```
 **(c)For Conversion Operation:**
- In case of conversion operation,operand1 is treated as number and operator have total 8 string values of conversion i.e.
+ - In case of conversion operation,operand1 is treated as number and operator have total 8 string values of conversion i.e.
 ``Dec-Bin``
+
 ``Dec-Hex``
+
 ``Dec-Oct``
+
 ``Hex-Dec``
+
 ``Oct-Dec``
+
 ``Bin-Dec``
+
 ``Rad-Deg``
+
 ``Deg-Rad``
+
  
-Math functions used here are:
+- Math functions used here are:
+
  ***For base conversion***
+ 
    ```decbin() ->	Converts a decimal  to a binary ```
+   
    ```bindec() -> Converts a binary to decimal```
+   
    ```dechex() -> Converts a decimal  to a hexadecimal ```
+   
    ```hexdec() -> Converts a hexadecimal to decimal```
+   
    ```decoct() -> Converts a decimal  to an octal ```
+   
    ```octdec -> Converts a octal to a decimal```
+   
    ```deg2rad() ->	Converts a degree value to a radian ```
+   
+   
 ```
 if (isset($_POST["conversion"])) {
         #in case of conversion operation operand1 is treated as number
@@ -294,10 +338,12 @@ if (isset($_POST["conversion"])) {
     }
 ``` 
 **(d)For Logarithmic Operation:**   
-In case of logarithmic operation operand1 is constant, operand2id value of number of which natural log is to be find and operator have  3 string value for math functions:log, log10 and exp
+- In case of logarithmic operation, operand1 is constant, operand2 is the value of number of which natural log is to be find and operator have  3 string value for math functions:log, log10 and exp.
 
 ``` log()  -> 	Returns the natural logarithm of a number```
+
   ```log10() -> Returns the base-10 logarithm of a number```
+  
    ```exp()  ->	Calculates the exponent of e```
 
 ```
