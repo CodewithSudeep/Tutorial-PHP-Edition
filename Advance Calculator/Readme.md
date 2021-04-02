@@ -397,57 +397,74 @@ As demonstrated above,  we use the concept of PHP math library. It contains numb
 Some screenshots of results are uploaded below:
 ##### 1.Arithmetic operations:
 - **Addition**
+
 ![Add](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%201%20add.PNG)
 
 - **Subtraction**
+
 ![subtraction](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%201%20sub.PNG)
 
 - **Multiplication**
+
 ![Multiplication](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%20multiply.PNG)
 
 - **Division**
+
 ![Division](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%20div..PNG)
 
 - **Modulus**
+
 ![Mod](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result1%20mod.PNG)
 
 - **Exponential**
+
 ![Exp](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%201%20expo.PNG)
 
 ##### 2.Trigonometric Operations:
 - **Sin**
 
+
 ![sin](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%202%20sin.PNG)
 
 - **Cos**
+
 ![cos](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%202%20cos.PNG)
 
 - **Tan**
+
 ![tan](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%202%20tan.PNG)
 
  ##### 3.Base Conversion
 - **Binary to decimal**
+
 ![bin-dec](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%203%20bin%20dec.PNG)
 
 - **Decimal to Binary**
+
 ![dec-bin](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%203%20%20dec%20bin.PNG)
 
 - **Decimal to hexadecimal**
+
 ![dec-hex](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%203%20dec%20hex.PNG)
 
 - **Hexadecimal to Decimal**
+
 ![hex-dec](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%203%20hex%20dec.PNG)
 
 - **Decimal to Octal**
+
 ![dec-oct](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%203%20dec%20oct.PNG)
 
 - **Octal to Decimal**
+
 ![oct-dec](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%203%20oct%20dec.PNG)
 
 - **Degree to Radian**
+
 ![deg-rad](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%203%20dec%20rad.PNG)
 
 - **Radian to degree**
+
 ![rad-deg](https://raw.githubusercontent.com/CodewithSudeep/Tutorial-PHP-Edition/main/Advance%20Calculator/screenshots/result%203%20rad%20deg.PNG)
 
 ##### 4. Logarithmic Operation
