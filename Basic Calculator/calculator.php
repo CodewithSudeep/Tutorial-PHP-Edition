@@ -118,11 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="main">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
-<<<<<<< HEAD
         <b><?php if(isset($result)){ echo "Result: ".$result; } ?></b><br/>
-=======
-        <b><?php if(isset($final)){ echo "Result: ".$final; } ?></b><br/>
->>>>>>> b218067becdcb46c38497d185e0632c5c188c1ab
         Number A: <input type="number" name="operand1" required><br/>
         Number B: <input type="number" name="operand2" required><br/>
         Operator : <select name="operator" required>

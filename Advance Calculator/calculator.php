@@ -2,6 +2,40 @@
 
 # PHP script for handling the form request
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    # The request is using the POST method
+    if (isset($_POST["arithmetic"]) && is_numeric($_POST["operand1"]) && is_numeric($_POST["operand2"])) {
+        # checks if calculate button is set
+        #second step
+        $operand1 = $_POST["operand1"];
+        $operand2 = $_POST["operand2"];
+        $operator = $_POST["operator"];
+        $result="";
+        #final step
+        switch ($operator) {
+            case '+':
+                $result = $operand1+$operand2;
+                break;
+            case '-':
+                $result = $operand1-$operand2;
+                break;
+            case '*':
+                $result = $operand1*$operand2;
+                break;
+            case '/':
+                $result = $operand1/$operand2;
+                break;
+            case '%':
+                $result = $operand1%$operand2;
+                break;
+            case '**':
+                $result = $operand1**$operand2;
+                 break;
+            default:
+               $result = "Operation not allowed";
+                break;
+        }
+
 
         if (is_numeric($result)) {
             $final = "$operand1".$operator."$operand2 = ".$result;
@@ -39,7 +73,7 @@ elseif (isset($_POST["trignometric"]) && is_numeric($_POST["operand1"]) && is_nu
 
     if(is_numeric($result))
     {
-        $final = "$operand1"."$operator"."$operand2 = ". "$result";
+        $final = "$operand1"."$operator"."$operand2 = ". $result;
     }
 
     else{
@@ -84,7 +118,7 @@ $final = $result;
         }
 
         if(is_numeric($result)){
-            $final = "$operator"."$operand1 = "."$result";
+            $final = "$operator"."$operand1 = ".$result;
         }
 
         else{
@@ -94,7 +128,7 @@ $final = $result;
 
     }
 
-    elseif(isset($_POST["calculate"]) && is_numeric($_POST["operand1"]) && is_numeric($_POST["operand2"]))
+    elseif(isset($_POST["logarithmic"]) && is_numeric($_POST["operand1"]) && is_numeric($_POST["operand2"]))
     {
 
 
@@ -139,7 +173,7 @@ break;
 }
 if(is_numeric($result)){
 
-    $final = "$operand1". "$operator" . "$operand2 = " . "$result";
+    $final = "$operand1". "$operator" . "$operand2 = " . $result;
 }
 else{
 
