@@ -9,10 +9,10 @@
 ## Features:
  In addition to the feature provided by **Basic Calculator** ,it provides following features:
 
-- **1.Arithmetic operations**
-- **2.trigonometric operations**
-- **3.logarithmic operations**
-- **4.base conversion**
+ **1.Arithmetic operations**
+ **2.trigonometric operations**
+ **3.logarithmic operations**
+ **4.base conversion**
 
 ### 1. Arithmetic operations  *(Refer to Basic Calculator)*
 - Addition
