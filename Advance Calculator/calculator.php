@@ -5,6 +5,7 @@
 #first step
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     # The request is using the POST method
+    //simple calc
     if (isset($_POST["arithmetic"]) && is_numeric($_POST["operand1"]) && is_numeric($_POST["operand2"])) {
         # checks if calculate button is set
         #second step
@@ -24,7 +25,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $result = $operand1*$operand2;
                 break;
             case '/':
+                if($operand2==0){
+                    $result = "When a number is divided by zero it is undefined.So input a  value except zero.";
+                }else{
                 $result = $operand1/$operand2;
+                }
                 break;
             case '%':
                 $result = $operand1%$operand2;
@@ -45,6 +50,46 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }else{
         $final = "given operand is non numberic";
+    }
+    // trigonometric
+    if(isset($_POST['trignometric']) && is_numeric($_POST['operand1']) && is_numeric($_POST['operand2'])){
+        $operand1 = $_POST['operand1']; //constant
+        $operand2 = $_POST['operand2']; //degree
+        $operator = $_POST['operator']; //sincostan
+        $result = "";
+        switch($operator){
+            case 'sin':
+                $result = $operand1*sin(deg2rad($operand2));
+                break;
+            case 'cos':
+                $result = $operand1*cos(deg2rad($operand2));
+                break; 
+            case 'tan':
+                $result = $operand1*tan(deg2rad($operand2));
+                break; 
+            default:
+               $result = "Operation not allowed";
+        }
+        if (is_numeric($result)) {
+            $final = "$operand1".$operator."(".$operand2.")"." = ".$result;
+        }
+        else{
+            $final =$result;
+        }
+    }else{
+        $final =" Invalid input";
+    }
+    if(isset($_POST['conversion']) && is_numeric($_POST['operand1'])){
+        $operand1 = $_POST['operand1'];
+        $operator = $_POST['operator'];
+        $result = "";
+        switch($operator){
+            case 'bindec':
+                
+                $result = bindec($operand1);
+                break;
+        }
+        $final = $operand1." ".$operator."= " . $result;
     }
 }
 
