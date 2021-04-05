@@ -3,7 +3,7 @@
 //header("Content-type:application/pdf");
 //header("Content-Disposition:attachment;filename='downloaded.pdf'");
 if(isset($_POST['submit'])){
-    header("location:test.php");
+    header("location:test.php");  //header mainly used for redirecting current page to next targeted page as certain condition is meet
 }
 ?>
 <!DOCTYPE html>

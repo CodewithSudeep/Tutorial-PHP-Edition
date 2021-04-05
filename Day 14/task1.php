@@ -1,7 +1,8 @@
 <?php
 
 #DEBUG
- function myFunction{
-     echo "hello worild";
+ function myFunction(){
+     echo "hello world";
  }
- myFunction
+ myFunction();
+ ?>
