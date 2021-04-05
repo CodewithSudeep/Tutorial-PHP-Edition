@@ -17,6 +17,11 @@
 #create and array for student and thier marks
 #example: 
 // $results = array("ram"=>45,"sita"=>80);
+<<<<<<< HEAD
+=======
+// $name = "ram";
+// echo $results[$name];
+>>>>>>> 26c01a80f69f1ee92f8c2fedc59b7aea1547a3c1
 #create form which takes the name of student and print their marks if it exist in array
 #otherwise print "try another name"
 $results =array("Bibek"=>70,"Jiten"=>90,"Sakshyam"=>60,"Sudip"=>65,"Raj"=>25);

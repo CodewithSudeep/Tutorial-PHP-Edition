@@ -20,6 +20,7 @@
 </form>
 <?php
 #create a form which takes the breif introduction of user and calculates the total words.
+<<<<<<< HEAD
 if($_SERVER['REQUEST_METHOD']=="POST"){
   $info =  $_POST['text'];
   if(empty($info)){
@@ -32,3 +33,25 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
 ?>
 </body>
 </html>
+=======
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+    <textarea name="intro"></textarea>
+    <input type="submit">
+    
+    </form>
+
+</body>
+</html>
+>>>>>>> 26c01a80f69f1ee92f8c2fedc59b7aea1547a3c1
