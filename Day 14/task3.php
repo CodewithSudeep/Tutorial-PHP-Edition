@@ -1,5 +1,7 @@
 <?php
 
+
+
 function yourName($string){
     echo $string;
   
@@ -7,3 +9,7 @@ function yourName($string){
 
 //call the given function with your name in argument
 //hint function abc("myname");
+
+yourName("sarbendra");
+
+?>

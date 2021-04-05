@@ -3,6 +3,7 @@
 #DEBUG
 
 
-$pie = pie; //in-bult function call
+$pie = pi(); //in-bult function call
 
 echo $pie;
+?>
