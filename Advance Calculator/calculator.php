@@ -277,13 +277,13 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
     <div id="logcalc">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
-       <p>xlog(y) OR xY<sup>e</sup></p>
+       <p>xlog(y) OR xe<sup>y</sup></p>
         X: <input type="text" name="operand1" required><br/>
         Y: <input type="text" name="operand2" required><br/>
         Operator : <select name="operator" required>
             <option value="log">Natural log</option>
             <option value="log10">log10 - base-10 logarithm</option>
-            <option value="exp">Y<sup>e</sup> - exponent</option>
+            <option value="exp">e<sup>y</sup> - exponent</option>
         </select><br/>
         <input type="submit" name="logarithmic" value="Calculate"><br/>
         </div>
