@@ -11,4 +11,4 @@ $temp = explode(",",$intro);
 $temp = array_reverse($temp);
 $new = implode("_",$temp);
 echo $new;
-
+?>
