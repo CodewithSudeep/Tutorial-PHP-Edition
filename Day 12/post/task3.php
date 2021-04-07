@@ -18,7 +18,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
 
 #example: 
 // $results = array("ram"=>45,"sita"=>80);
-
+// $name = "ram";
+// echo $results[$name];
 #create form which takes the name of student and print their marks if it exist in array
 
 #otherwise print "try another name"
