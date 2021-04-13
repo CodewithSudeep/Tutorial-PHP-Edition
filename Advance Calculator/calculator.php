@@ -12,6 +12,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
     $result="";
     
     # checking the type of operation
+
+    #  arithmetic operation
     if (isset($_POST["arithmetic"])) {
         
         # for arithmetic operation
@@ -64,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
         }
     }
 
-
+    #  trignometric operation
     if (isset($_POST["trignometric"])) {
         #in case of trignometric function oprand1 is treated as contant, operand2 is value of radian
         # operator have 3 string value for math functions: sin,cos,tan
@@ -100,6 +102,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
         }
     
     }
+
+    #  conversion operation
 
     if (isset($_POST["conversion"])) {
         #in case of cenversion operation oprand1 is treated as number
@@ -157,6 +161,8 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
         }
     }
 
+    #  logarithmic operation
+
     if (isset($_POST["logarithmic"])) {
         #in case of logarithmic operation oprand1 is treated as contant, operand2 is value of number of which natural log is to be find
         # operator have 3 string value for math functions: log,log10,exp
@@ -193,7 +199,6 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
     }
 
 }
-
 
 
 ?>
@@ -277,13 +282,13 @@ if ($_SERVER["REQUEST_METHOD"]=="POST") {
     <div id="logcalc">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
-       <p>xlog(y) OR xe<sup>y</sup></p>
+       <p>xlog(y) OR xY<sup>e</sup></p>
         X: <input type="text" name="operand1" required><br/>
         Y: <input type="text" name="operand2" required><br/>
         Operator : <select name="operator" required>
             <option value="log">Natural log</option>
             <option value="log10">log10 - base-10 logarithm</option>
-            <option value="exp">e<sup>y</sup> - exponent</option>
+            <option value="exp">Y<sup>e</sup> - exponent</option>
         </select><br/>
         <input type="submit" name="logarithmic" value="Calculate"><br/>
         </div>
