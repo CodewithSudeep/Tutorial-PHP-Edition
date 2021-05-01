@@ -2,9 +2,11 @@
 
 
 #debug
-a=0;
+$a=0;
 
 
-do 
-   print "hello";
- while ($a <= 10);
+do {
+  print "hello <br/>";
+   $a++;
+}while ($a < 10);
+  ?>

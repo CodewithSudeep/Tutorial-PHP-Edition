@@ -13,3 +13,11 @@ $myArray[] = array("name"=>"sarbendra","age"=>22);
 
 
 // now print all the name and ages in an array $myArray
+foreach($myArray as $a => $value){
+    foreach($value as $b=>$val){
+    echo $val." ";
+    }
+    echo "<br/>";
+}
+
+?>
