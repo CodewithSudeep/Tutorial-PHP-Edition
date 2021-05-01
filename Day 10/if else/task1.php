@@ -6,6 +6,7 @@
 
 
 $x = 2;
+<<<<<<< HEAD
 
 if $x > 5 {
     echo "Number is greater than 5"
@@ -13,3 +14,15 @@ if $x > 5 {
     eco "Number is less than 5;"
 }
 
+=======
+echo "x=",$x,"<br>";
+if ($x > 5) {
+    echo "Number is greater than 5";
+}
+else{
+    echo "Number is less than 5";
+}
+
+?>
+
+>>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

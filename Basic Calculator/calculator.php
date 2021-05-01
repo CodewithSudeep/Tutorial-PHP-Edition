@@ -1,4 +1,50 @@
 <?php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# PHP script for handling the form request   
+if($_SERVER['REQUEST_METHOD']==="POST"){
+    if( isset($_POST['calculate']) && is_numeric($_POST['operand1']) && is_numeric($_POST['operand2']) ){
+        $op1=$_POST['operand1'];
+        $op2=$_POST['operand2'];
+        $operator=$_POST['op'];
+        if(is_string($operator)){
+            switch($operator){
+                case '+':
+                    $result=$op1 + $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '-':
+                    $result=$op1 - $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '*':
+                    $result=$op1 * $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '/':
+                    $result=$op1 / $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '%':
+                    $result=$op1 % $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;
+                case '**':
+                    $result=$op1 ** $op2;
+                    echo "$op1 $operator $op2 = ",$result;
+                    break;  
+                 default:
+                    echo "invalid operator";   
+            }
+        }
+        
+
+    }
+}
+    ?>
+=======
+>>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
 
 # PHP script for handling the form request
 
@@ -49,6 +95,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 ?>
+<<<<<<< HEAD
+=======
+>>>>>>> 1f967168467bc5a3476bad1ecd79ffdaca9e2893
+>>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
 
 <!DOCTYPE html>
 <html lang="en">
@@ -63,10 +113,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="main">
     <form class="form" method="POST" action="calculator.php">
         <div class="inputs">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        Number A: <input type="number" name="operand1" required><br/>
+        Number B: <input type="number" name="operand2" required><br/>
+        Operator : <select name="op" required>
+=======
+>>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
         <b><?php if(isset($final)){ echo "Result: ".$final; } ?></b><br/>
         Number A: <input type="number" name="operand1" required><br/>
         Number B: <input type="number" name="operand2" required><br/>
         Operator : <select name="operator" required>
+<<<<<<< HEAD
+=======
+>>>>>>> 1f967168467bc5a3476bad1ecd79ffdaca9e2893
+>>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
             <option value="-">-</option>
             <option value="+">+</option>
             <option value="*">*</option>
@@ -78,5 +140,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </form>
     </div>
+<<<<<<< HEAD
 </body>
 </html>
+=======
+<<<<<<< HEAD
+
+
+</body>
+</html>
+
+=======
+</body>
+</html>
+>>>>>>> 1f967168467bc5a3476bad1ecd79ffdaca9e2893
+>>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

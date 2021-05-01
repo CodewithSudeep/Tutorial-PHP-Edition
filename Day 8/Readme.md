@@ -12,7 +12,19 @@
 
 ### PHP Arithmetic Operators
 
+<<<<<<< HEAD
 * '+' Addition --- $x + $y --- Sum of $$x$ and $y
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+* '+' Addition --- $x + $y --- Sum of $x and $y
+=======
+* '+' Addition --- $x + $y --- Sum of $$x$ and $y
+>>>>>>> 580089602a559d574d4e711a198120868210ef8f
+=======
+* '+' Addition --- $x + $y --- Sum of $$x$ and $y
+>>>>>>> 1f967168467bc5a3476bad1ecd79ffdaca9e2893
+>>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
 
 * '-' Subtraction       $$x$ - $y$              Difference of $x and $y
 
