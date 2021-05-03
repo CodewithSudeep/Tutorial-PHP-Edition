@@ -3,21 +3,13 @@
 
 $x= 5;
 $y = 3;
-<<<<<<< HEAD
-
-=======
 echo "x=",$x,"<br>";
 echo "y=",$y,"<br>";
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
 //find the product and check whether the result is 
 // 1. greater than 100 or is even number 
 // 2. less than 20 and is even number
 // 3. identical to 15 and is less than 19 
 // 4. not 1, 2 and 3
-<<<<<<< HEAD
-
-
-=======
 $prod=$x*$y;
 echo "x*y=",$prod,"<br>";
 
@@ -35,5 +27,4 @@ else{
 }
 
 ?>
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
 

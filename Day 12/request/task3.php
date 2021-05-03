@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<?php
-# create a admission form having input feilds: 
-# name, address, program, contact number
-
-
-#submit the form using POST method on same page
-
-# print the data submitted via form 
-?>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,4 +38,3 @@
 </html>
 
 
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

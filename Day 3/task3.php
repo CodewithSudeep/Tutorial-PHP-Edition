@@ -1,8 +1,5 @@
 <?php 
 
-<<<<<<< HEAD
-//write a php program demonstrating # for comment
-=======
 //write a php program demonstrating # for comment
 echo "comment here"
 
@@ -10,4 +7,3 @@ echo "comment here"
 # this text is not visible on output
 
 ?>
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

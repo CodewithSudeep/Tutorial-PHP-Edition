@@ -1,9 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-
-// Google search about built in function header() and demonstarate the use
-=======
 // Google search about built in function header() and demonstarate the use
  if(isset($_POST['submit'])){
      header("location:https://www.facebook.com/groups/3265547303565933");   //header funtion here is used to redirect current page to codewithsudeep group
@@ -25,4 +21,3 @@
     </form>
 </body>
 </html>
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

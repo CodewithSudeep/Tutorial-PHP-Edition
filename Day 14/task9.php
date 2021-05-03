@@ -2,9 +2,6 @@
 
 // create an associative array 
 // create a function which returns the key of associative array
-<<<<<<< HEAD
-
-=======
 $sub_and_mentor=array(
     "Gp"=>"Math-II",
     "AL"=>"DS",
@@ -22,4 +19,3 @@ var_dump($get_key);
 
 
 ?>
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

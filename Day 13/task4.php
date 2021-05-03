@@ -1,17 +1,11 @@
 <?php
 
 
-<<<<<<< HEAD
-// demonstrate the use following function
-=======
 // demonstrate the use of  following function
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
 // 1. explode()
 // 2. implode()
 // 3. count()
 // 4. array_sum()
-<<<<<<< HEAD
-=======
 
 //explode-->The explode() function breaks a string into an array.
 $str= "How about a cup of coffee with me";
@@ -36,4 +30,3 @@ echo "<br><br>The sum of numbers in array is:",array_sum($to_be_added);
 
 
 ?>
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

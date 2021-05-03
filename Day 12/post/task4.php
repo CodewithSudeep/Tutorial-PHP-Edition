@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-<?php
-
-
-//make two variable for username and password
-
-$username = //string
-$password= //string
-
-
-# create a form wich takes username and password
-
-
-#check the U/P provided through form matches with variables or not
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,4 +37,3 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
 </body>
 </html>
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

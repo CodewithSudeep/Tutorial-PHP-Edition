@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<?php
-
-=======
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +16,6 @@ Flight name  <input type="name" name="_name"><br>
 <input type="submit" name="submit">
 </form>
 <?php
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
 
 // create form for tickect reservation having attributes:
 //     ticket number
@@ -28,9 +23,6 @@ Flight name  <input type="name" name="_name"><br>
 //     from
 //     flight name
 
-<<<<<<< HEAD
-// handle the form request and print the form data
-=======
 // handle the form request and print the form data
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
  if (isset($_GET['submit'])){
@@ -51,4 +43,3 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 </body>
 </html>
 
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

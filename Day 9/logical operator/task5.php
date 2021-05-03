@@ -5,8 +5,6 @@ $true = TRUE;
 $false = TRUE;
 
 //perform all logical operator 
-<<<<<<< HEAD
-=======
 echo "<br>";
 $ans=($true || $false);  //OR operator
 echo var_dump($ans);
@@ -19,4 +17,3 @@ echo var_dump($result);
 
 
 ?>
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

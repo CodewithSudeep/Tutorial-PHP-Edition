@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-<?php
-
-
-#create a form which takes the number and checks if it is palindrome or not
-
-
-?>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,4 +32,3 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
 
 
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5

@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-<?php
-
-#create and array for student and thier marks
-
-#example: 
-// $results = array("ram"=>45,"sita"=>80);
-// $name = "ram";
-// echo $results[$name];
-#create form which takes the name of student and print their marks if it exist in array
-
-#otherwise print "try another name"
-
-
-?>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,4 +40,3 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
 
 
 
->>>>>>> 7563e80d81a9f5cc3eba01084e065eb963ffa2b5
