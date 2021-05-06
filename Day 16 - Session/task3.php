@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 //check if session is started
 
@@ -10,6 +11,18 @@
 
 //final check
 
-if (isset($_SESSION)){
-        
+if(isset($_SESSION))
+{
+    
+session_destroy();
+echo"started session closed";
+
 }
+else{
+  
+    session_start();
+echo"started session";
+
+}
+
+?>
