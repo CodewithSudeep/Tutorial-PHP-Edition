@@ -1,7 +1,8 @@
 <?php
 
-$error=array();
+
 session_start();
+$error=array();
 if($_POST["email"]==""){
     $error[]="Email field is required";
 }
@@ -24,17 +25,23 @@ if($_POST["email"]!="" && $_POST["password"]!="")
     if($_SESSION["user_email"]!=$_POST["email"])
     {
         echo"Email not found";
+        echo"<a href='login.html'><button type='button'>Try!again</button></a>";
+        echo"<a href='register.html'><button type='button'>Register</button></a>";
+
         exit(0);
+        
     }
     else{
     if($_SESSION["user_password"]!=$_POST["password"])
     {
-        echo"Password not match";
+        echo"Password not match<br>";
+        echo"<a href='login.html'><button type='button'>Try!again</button></a>";
+        echo"<a href='register.html'><button type='button'>Register</button></a>";
         exit(0);
     }
     else{
-        echo"You are logged in";
         $_SESSION["user_loggedin"]=true;
+        header('location:index.php');
         }
     }
 }
