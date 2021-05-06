@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+// var_dump($_POST);
 
 $error = array();
 
@@ -29,13 +30,17 @@ exit(0);
 
 }
 
-if( $_SESSION["user_email"] = $_POST["email"] && $_SESSION["user_password"] = $_POST["password"])
-{
+// if( $_SESSION["user_email"] == $_POST["email"] && $_SESSION["user_password"] == $_POST["password"])
+// {
 
 if( $_SESSION["user_email"] != $_POST["email"])
 {
 
-    echo "invalid email";
+    
+
+header('location: register.html');
+echo "invalid email" . "  please register first";
+
     exit(0);
 }
 else{
@@ -56,4 +61,9 @@ else{
 }
 
 
+// }
+
+if($_SESSION["user_loggedin"] == true)
+{
+    header('location:index.php');
 }
