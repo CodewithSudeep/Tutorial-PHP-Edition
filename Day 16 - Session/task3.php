@@ -9,3 +9,7 @@
 //if no then start the session
 
 //final check
+
+if (isset($_SESSION)){
+        
+}
