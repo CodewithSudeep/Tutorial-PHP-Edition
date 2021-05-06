@@ -15,7 +15,6 @@
     <title>Document</title>
 </head>
 <body>
-<<<<<<< HEAD
     <form method="POST" action="task1.php">
     Describe Yourself: <textarea name="fdescribe"></textarea><br> 
     <input type="submit" name="submit">
@@ -32,13 +31,3 @@ echo strlen($description);
 </body>
 </html>
 
-=======
-    <form method="post">
-    <textarea name="intro"></textarea>
-    <input type="submit">
-    
-    </form>
-
-</body>
-</html>
->>>>>>> b218067becdcb46c38497d185e0632c5c188c1ab
