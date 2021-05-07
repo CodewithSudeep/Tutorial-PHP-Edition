@@ -1,5 +1,11 @@
 <?php
 session_start();
+
+if(!(isset($_SESSION['user_loggedin']) && $_SESSION['user_loggedin']=== true))
+{
+
+    header('location: login.html');
+}
 ?>
 
 <!DOCTYPE html>
@@ -14,19 +20,19 @@ session_start();
 <body>
     
 
-<!-- <h1>Welcome to Main page</h1> -->
+
 <div class="big">
-<h1>Welcome to Main page</h1>
+<h1>Welcome <?php echo $_SESSION['user_name'];?> </h1>
 <h3>YOUR INFORMATIONS</h3>
 <br>
 <br>
 <div>
-<p>NAME: <?php echo $_SESSION["user_name"] ."<br/>";?></p> 
+<p>NAME: <?php echo $_SESSION["user_name"] ;?></p> 
 <br>
 
-<p>E-MAIL: <?php echo $_SESSION["user_email"]. "<br/>";?> </p>
+<p>E-MAIL: <?php echo $_SESSION["user_email"];?> </p>
 <br>
-<p>PASSWORD: <?php echo base64_encode($_SESSION["user_password"]) . "<br/>"; ?></p>
+<p>PASSWORD: <?php echo base64_encode($_SESSION["user_password"]); ?></p>
 
 <br>
 </div>

@@ -38,9 +38,11 @@ if( $_SESSION["user_email"] != $_POST["email"])
 
     
 
-header('location: register.html');
-echo "invalid email" . "  please register first";
 
+echo "invalid email" . "  please register first <br/>";
+echo "<a href='register.html'>Register</a>";
+echo "<br/>". "Or login with different email <br/>";
+echo "<a href='login.html'>login</a>";
     exit(0);
 }
 else{

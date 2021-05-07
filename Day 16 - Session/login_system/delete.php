@@ -7,7 +7,8 @@ if($_SESSION["user_loggedin"] === true)
 
     session_destroy();
 
-    header('location: register.html');
+    echo "you accoount has been deleted please register again! <br/>";
+    echo "<a href='register.html'>Register</a>"; 
 
 }
 
