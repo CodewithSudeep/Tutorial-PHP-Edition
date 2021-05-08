@@ -1,7 +1,6 @@
 <?php
 session_start();
 // var_dump($_POST);
-
 $error = array();
 
 if($_POST['email']=="")
@@ -25,7 +24,7 @@ foreach($error as $key => $value){
 
     echo $value . "<br/>";
 }
-echo "<a href = 'login.html'>login</a>";
+echo "<a href = 'login2.php'>login</a>";
 exit(0);
 
 }
@@ -37,12 +36,10 @@ if( $_SESSION["user_email"] != $_POST["email"])
 {
 
     
-
-
 echo "invalid email" . "  please register first <br/>";
 echo "<a href='register.html'>Register</a>";
 echo "<br/>". "Or login with different email <br/>";
-echo "<a href='login.html'>login</a>";
+echo "<a href='login2.php'>login</a>";
     exit(0);
 }
 else{

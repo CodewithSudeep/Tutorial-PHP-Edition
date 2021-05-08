@@ -14,5 +14,5 @@ if($_SESSION["user_loggedin"] === true)
 
 else{
 
-    header('location:login.html');
+    header('location:login2.php');
 }

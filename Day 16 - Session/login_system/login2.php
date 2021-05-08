@@ -1,3 +1,18 @@
+<?php
+session_start();
+
+if( !(isset($_SESSION['user_email'])))
+{
+
+
+header('location: register.html');
+
+}
+
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -45,7 +45,7 @@ if($_POST['email']!=="" && $_POST['name']!=="" && $_POST['password']!=="")
     $_SESSION["user_name"] = $_POST["name"];
     $_SESSION["user_password"] = $_POST["password"];
     echo "Registration successful <br/> please login with your username and password <br/>";
-    echo "<a href = 'login.html'>login</a>";
+    echo "<a href = 'login2.php'>login</a>";
     
 }
 
