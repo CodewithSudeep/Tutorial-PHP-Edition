@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+if(!isset($_SESSION["user_email"])){
+    header("location:register.html");
+}
+
+if(isset($_SESSION["user_logged_in"])){
+  header("location:index.php");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

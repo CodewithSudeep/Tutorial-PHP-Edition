@@ -15,7 +15,7 @@ if(count($error)>0){
     foreach ( $error as $key => $value ){
         echo $value,"<br>";
     } 
-    echo "<a href='login.html'>Register</a>";
+    echo "<br><a href='login.html'>Register</a>";
     exit(0);
 }
 
@@ -32,12 +32,9 @@ if($_POST['email']!=="" && $_POST['password']!=="" ){
         }
         else{
             echo "You are logged in ";
-            $_SESSION["user_logged_in"]="true";
+            $_SESSION["user_logged_in"]=true;
+            header("location:index.php");
         }
-    }
-    
-
+    } 
 }
-
-
 ?>

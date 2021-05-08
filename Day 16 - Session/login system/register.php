@@ -1,3 +1,4 @@
+
 <?php 
 session_start();
 $error= array();
@@ -25,9 +26,7 @@ if($_POST['email']!=="" && $_POST['password']!=="" && $_POST['username']!==""){
     $_SESSION["user_email"]=$_POST['email'];
     $_SESSION["user_name"]=$_POST['username'];
     $_SESSION["user_password"]=$_POST['password'];
-    echo "Registration Successful <br> Please login with your username and password.";
-    echo "<a href='login.html'>Login</a>";
+    echo "<br>Registration Successful <br> Please login with your username and password.<br><br>";
+    echo "<a href='loginpage.php'>Login</a>";
 }
-
-
 ?>
