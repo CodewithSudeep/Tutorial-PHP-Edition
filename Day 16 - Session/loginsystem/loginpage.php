@@ -1,3 +1,16 @@
+
+<?php
+session_start();
+
+if(!(isset($_SESSION['user_name']))){
+  header('location:register.html');
+}
+if(isset($_SESSION['user_loggedin'])){
+  if($_SESSION['user_loggedin']==true){
+    header('location:index.php');
+  }
+}?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

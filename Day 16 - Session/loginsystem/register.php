@@ -24,5 +24,5 @@ if($_POST['email']!=="" && $_POST['name']!==""&&$_POST['password']!==""){
     $_SESSION["user_email"]=$_POST["email"];
     $_SESSION["user_name"]=$_POST["name"];
     $_SESSION["user_password"]=$_POST["password"];
-    header('location:login.html');
+    header('location:loginpage.php');
 }
