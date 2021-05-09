@@ -29,5 +29,5 @@ $_SESSION["user_name"]=$_POST["fulname"];
 $_SESSION["user_password"]=$_POST["password"];
 // echo "Resiteration successful.<br>please Login with your username and password<br>";
 // echo"<a href ='login.html'>Login</a>";
-header('location:login.html');
+header('location:loggin.php');
 ?>

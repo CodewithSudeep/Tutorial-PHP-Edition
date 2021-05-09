@@ -6,10 +6,12 @@
 //button,link--logout
 
 //username,user emial,hahs passord
-session_start();
-if($_SESSION["user_loggedin"]!=true)
+if(!(isset($_COOKIE['user_loggin']) && $_COOKIE['user_loggin']==="1")){
+    header('location:login.php');
+}
+if(!(isset($_COOKIE["user_name"]) && isset($_COOKIE["user_email"])))
 {
-    header("location:loggin.php");
+    header("location:register.html");
 }
 ?>
 <!DOCTYPE html>
@@ -23,11 +25,11 @@ if($_SESSION["user_loggedin"]!=true)
 </head>
 <body>
     <div class="container">
-        <h2 class="title">Welcome <?php echo $_SESSION['user_name']; ?></h2>
+        <h2 class="title">Welcome <?php echo $_COOKIE['user_name']; ?></h2>
           <h4>Your details</h4>
-          <p>Username : <?php echo $_SESSION['user_name'];?></p>
-          <p>Email : <?php echo $_SESSION['user_email'];?></p>
-          <p>Password : <?php echo base64_encode($_SESSION['user_password']);?></p>
+          <p>Username : <?php echo $_COOKIE['user_name'];?></p>
+          <p>Email : <?php echo $_COOKIE['user_email'];?></p>
+          <p>Password : <?php echo base64_encode($_COOKIE['user_password']);?></p>
           <div class="btn">
           <a href='logout.php'><input type='button' name='logout'value='logout'class="btn-1"></a> 
           <a href='deletedata.php'><input type='button' name='deletedata'value='deletedata' class="btn-2"></a> 

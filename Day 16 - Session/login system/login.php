@@ -17,7 +17,7 @@ if(count($error)>0)
         echo $value;
         echo "<br>";
     }
-    echo"<a href ='login.html'>Register</a>";
+    echo"<a href ='loggin.php'>Register</a>";
     exit(0);
 }
 if($_POST["email"]!="" && $_POST["password"]!="")
@@ -25,7 +25,7 @@ if($_POST["email"]!="" && $_POST["password"]!="")
     if($_SESSION["user_email"]!=$_POST["email"])
     {
         echo"Email not found";
-        echo"<a href='login.html'><button type='button'>Try!again</button></a>";
+        echo"<a href='loggin.php'><button type='button'>Try!again</button></a>";
         echo"<a href='register.html'><button type='button'>Register</button></a>";
 
         exit(0);
@@ -35,7 +35,7 @@ if($_POST["email"]!="" && $_POST["password"]!="")
     if($_SESSION["user_password"]!=$_POST["password"])
     {
         echo"Password not match<br>";
-        echo"<a href='login.html'><button type='button'>Try!again</button></a>";
+        echo"<a href='loggin.php'><button type='button'>Try!again</button></a>";
         echo"<a href='register.html'><button type='button'>Register</button></a>";
         exit(0);
     }

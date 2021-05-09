@@ -9,7 +9,7 @@
 session_start();
 if($_SESSION["user_loggedin"]!=true)
 {
-    header("location:login.html");
+    header("location:loggin.php");
 }
 ?>
 <!DOCTYPE html>
@@ -29,7 +29,7 @@ if($_SESSION["user_loggedin"]!=true)
           <p>Email : <?php echo $_SESSION['user_email'];?></p>
           <p>Password : <?php echo base64_encode($_SESSION['user_password']);?></p>
           <div class="btn">
-          <a href='login.html'><input type='button' name='logout'value='logout'class="btn-1"></a> 
+          <a href='logout.php'><input type='button' name='logout'value='logout'class="btn-1"></a> 
           <a href='deletedata.php'><input type='button' name='deletedata'value='deletedata' class="btn-2"></a> 
           </div>
 
