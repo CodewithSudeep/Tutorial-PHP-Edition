@@ -1,8 +1,11 @@
 <?php
 
 //debug
-$array = [2,4,5];
+$aray = [2,4,5];
 
-setcookie("data", $array, time()+(3600 * 30));
+setcookie("data",implode("",$aray), time()+(3600 * 30),);
 
+
+
+echo $_COOKIE["data"]; 
 ?>
