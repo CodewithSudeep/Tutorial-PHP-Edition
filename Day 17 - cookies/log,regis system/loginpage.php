@@ -1,3 +1,13 @@
+<?php
+if(isset($_COOKIE['user_loggedin'])){
+    if($_COOKIE['user_loggedin']==="1"){
+        header('location:index.php');
+    }
+}
+if(!(isset($_COOKIE['user_name']))){
+    header('location:register.html');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,12 +18,12 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-    <title>Register</title>
+    <title>Login</title>
   </head>
   <body>
     <div class="container mt-5 col-md-6">
-      <h4>Register Form</h4>
-      <form method="POST" action="register.php">
+      <h4>Login Form</h4>
+      <form method="POST" action="login.php">
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input
@@ -28,17 +38,7 @@
             >We'll never share your email with anyone else.</small
           >
         </div>
-        <div class="form-group">
-          <label for="exampleInputName">Name</label>
-          <input
-            type="text"
-            class="form-control"
-            id="exampleInputName"
-            aria-describedby="nameHelp"
-            placeholder="Enter Name"
-            name="name"
-          />
-        </div>
+        
         <div class="form-group">
           <label for="exampleInputPassword1">Password</label>
           <input

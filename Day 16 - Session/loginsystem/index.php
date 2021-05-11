@@ -1,9 +1,13 @@
 <?php
-//check user is logged in or not
-//login
-//button,link--logout
 
-//user name,user email, hashpasswordisplay
+//check user is logged in or not 
+
+//login
+
+//button,link -- logout 
+
+
+// user name, user email, user ko hash password 
 session_start();
 
 if($_SESSION["user_loggedin"]!=true){
